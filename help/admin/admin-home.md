@@ -1,18 +1,18 @@
 ---
-description: Audience Manager管理工具可讓您新增及設定公司、伺服器、報表、格式和使用者。您也可以檢視或編輯個人個人檔案。
-seo-description: Audience Manager管理工具可讓您新增及設定公司、伺服器、報表、格式和使用者。您也可以檢視或編輯個人個人檔案。
-seo-title: Audience Manager管理首頁
-title: Audience Manager管理首頁
-uuid: 4534b62-2c8d-4c42-8019-1614faa9d6
+description: Audience Manager管理工具可讓您新增及設定公司、伺服器、報表、格式和使用者。 您也可以檢視或編輯您的個人設定檔。
+seo-description: Audience Manager管理工具可讓您新增及設定公司、伺服器、報表、格式和使用者。 您也可以檢視或編輯您的個人設定檔。
+seo-title: Audience manager管理首頁
+title: Audience manager管理首頁
+uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 translation-type: tm+mt
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 
 ---
 
 
-# Audience Manager管理首頁 {#audience-manager-admin-home}
+# Audience manager管理首頁 {#audience-manager-admin-home}
 
-Audience Manager管理工具可讓您新增及設定公司、伺服器、報表、格式和使用者。您也可以檢視或編輯個人個人檔案。
+Audience Manager管理工具可讓您新增及設定公司、伺服器、報表、格式和使用者。 您也可以檢視或編輯您的個人設定檔。
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -22,11 +22,11 @@ Audience Manager管理工具可讓您新增及設定公司、伺服器、報表�
        c_home.xml 
      </draft-comment>將滑鼠停留在標題上查看簡要說明。 </p> <p> 
      <ul id="ul_A0416FDB65EB4774821C05664E14AB86"> 
-      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> 如何：針對批次目標授權跨帳戶Amazon S儲存貯體存取權</a> </li> 
-      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> 如何設定您的目標以匯出Experience Cloud…</a> </li> 
-      <li id="li_AB7BFF82D42649F3B72DA7737B05E355"><a href="formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE"> HTTP格式巨集</a> </li> 
-      <li id="li_FEC2B72DC2A04BEAAC36259C0882CECB"><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> API需求和建議</a> </li> 
-      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> 啓用傳出的Hadoop序列檔案傳輸</a> </li> 
+      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> 如何：授權批次目標的跨帳戶Amazon S3儲存桶訪問</a> </li> 
+      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> 如何設定您的目的地以匯出Experience Cloud...</a> </li> 
+      <li id="li_AB7BFF82D42649F3B72DA7737B05E355"><a href="formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE"> HTTP格式宏</a> </li> 
+      <li id="li_FEC2B72DC2A04BEAAC36259C0882CECB"><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> API需求與建議</a> </li> 
+      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> 啟用出站Hadoop序列檔案傳輸</a> </li> 
       <li id="li_EC1DE0200F4B4EA1A7FBAB6A05D9F746"><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D"> 適用於公司的裝置圖表選項</a> </li> 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>發行說明</b> </p> 
