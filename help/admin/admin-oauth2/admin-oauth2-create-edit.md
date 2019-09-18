@@ -1,18 +1,18 @@
 ---
-description: 使用「OAuth客戶」頁面，在您的Audience Manager組態中檢視OAuth用戶端清單。您可以編輯或刪除現有用戶端，或建立新用戶端，前提是您已指派適當的使用者角色。
-seo-description: 使用「OAuth客戶」頁面，在您的Audience Manager組態中檢視OAuth用戶端清單。您可以編輯或刪除現有用戶端，或建立新用戶端，前提是您已指派適當的使用者角色。
-seo-title: OAuth Clients
-title: OAuth Clients
-uuid: 3e654053-fb2 f-4d8 f-a53 c-b5 c3 b8 dbdaaa
+description: 使用「OAuth2用戶端」頁面，在Audience manager設定中檢視OAuth2用戶端清單。 您可以編輯或刪除現有客戶機或建立新客戶機，前提是您已分配了適當的用戶角色。
+seo-description: 使用「OAuth2用戶端」頁面，在Audience manager設定中檢視OAuth2用戶端清單。 您可以編輯或刪除現有客戶機或建立新客戶機，前提是您已分配了適當的用戶角色。
+seo-title: OAuth2用戶端
+title: OAuth2用戶端
+uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaa
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 ---
 
 
-# OAuth Clients {#oauth-clients}
+# OAuth2用戶端 {#oauth-clients}
 
-使用 [!UICONTROL OAuth2 Clients] 頁面來檢視您設定 [!UICONTROL OAuth2] 中的客戶 [!DNL Audience Manager] 清單。您可以編輯或刪除現有用戶端，或建立新用戶端，前提是您已指派適當的使用者角色。
+使用該 [!UICONTROL OAuth2 Clients] 頁可以查看配置中 [!UICONTROL OAuth2] 的客戶機列 [!DNL Audience Manager] 表。 您可以編輯或刪除現有客戶機或建立新客戶機，前提是您已分配了適當的用戶角色。
 
 ## 概述 {#overview}
 
@@ -20,47 +20,47 @@ source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 >[!NOTE]
 >
->確定您的客戶 [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) 在[！DNL Audience Manager使用指南。
+>請確定您的客戶閱讀 [[!DNL Audience Manager使用指南](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) ]中的OAuth2檔案。
 
-[!DNL OAuth2] 是開放標準，可代表資源擁有者提供安全委派存取 [!DNL Audience Manager] 資源。
+[!DNL OAuth2] 是授權的開放標準，代表資源擁有者提供對資 [!DNL Audience Manager] 源的安全委託存取。
 
 ![](assets/oauth.png)
 
-您可以按一下所要的欄標題，以遞增或遞減順序排序每欄。
+您可以按一下所需欄的標題，以遞增或遞減順序來排序每個欄。
 
-使用 [!UICONTROL Search] 方塊底部或清單底部的分頁控制項來尋找所需的用戶端。
+使用 [!UICONTROL Search] 清單底部的方塊或分頁控制項，以尋找所需的用戶端。
 
-## 建立或編輯OAuth用戶端 {#create-edit-client}
+## 建立或編輯OAuth2用戶端 {#create-edit-client}
 
 <!-- t_create_edit_auth.xml -->
 
-使用Audience [!UICONTROL OAuth2 Clients] Manager [!UICONTROL Admin] 工具中的頁面建立新 [!UICONTROL Oauth2] 用戶端或編輯現有用戶端。
+使用Audience manager工 [!UICONTROL OAuth2 Clients] 具中的頁面來 [!UICONTROL Admin] 建立新用戶端或 [!UICONTROL Oauth2] 編輯現有用戶端。
 
-1. 若要建立新 [!UICONTROL OAuth2] 客戶，請按一下 **[!UICONTROL OAuth2 Clients]** &gt; **[!UICONTROL Add OAuth2 Client]**。若要編輯現有 [!UICONTROL OAuth2] 用戶端，請按一下 **[!UICONTROL Client ID]** 欄中所要的用戶端。
-1. 指定此 [!UICONTROL OAuth2] 用戶端所要的名稱。請注意，這是記錄的名稱。
-1. 指定 [!UICONTROL OAuth2] 用戶端的電子郵件地址。電子郵件地址有限制。
-1. 從 **[!UICONTROL Partner]** 下拉式清單中選擇所需的合作夥伴。
-1. 在 **[!UICONTROL Client ID]** 方塊中指定所要的ID。這是提交 [!DNL API] 請求時使用的值。前置詞自動填入時，當您在上一步驟中的下拉式清單 [!UICONTROL Partner] 中選擇一個下拉式清單後，就會自動填入。正確格式為&lt; *`partner subdomain`*&gt;-&lt; *`Audience Manager username`*&gt;。
-1. 視需要選擇或取消選取 **[!UICONTROL Restrict to Partner Users]** 核取方塊。如果選取此核取方塊，使用者必須是列出合作夥伴的 [!DNL Audience Manager] 使用者。建議您選擇此選項作為最佳作法。
-1. **[!UICONTROL Scope]** 在區段中，視需要選擇或 **[!UICONTROL Read]** 取消選取與 **[!UICONTROL Write]** 核取方塊。
-1. 在 **[!UICONTROL Grant Type]** 區段中，選取想要的授權方式。建議您使用預設設定 [!UICONTROL Password] 和 [!UICONTROL Refresh-token] 選項。
+1. 若要建立新用戶 [!UICONTROL OAuth2] 端，請按一 **[!UICONTROL OAuth2 Clients]** 下&gt; **[!UICONTROL Add OAuth2 Client]**。 若要編輯現有的 [!UICONTROL OAuth2] 用戶端，請在欄中按一下所要的 **[!UICONTROL Client ID]** 用戶端。
+1. 指定此用戶端的所需 [!UICONTROL OAuth2] 名稱。 請注意，這僅是記錄的名稱。
+1. 指定客 [!UICONTROL OAuth2] 戶端的電子郵件地址。 電子郵件地址的限制。
+1. 從下拉 **[!UICONTROL Partner]** 式清單中，選擇所要的合作夥伴。
+1. 在方塊 **[!UICONTROL Client ID]** 中，指定所要的ID。 這是提交請求時使用的 [!DNL API] 值。 在您從前一步驟的下拉式清單中選擇字詞後，開始 [!UICONTROL Partner] 輸入時，首碼會自動填入。 正確的格式為&lt; *`partner subdomain`*&gt; - &lt; *`Audience Manager username`*&gt;。
+1. 視需要選取或 **[!UICONTROL Restrict to Partner Users]** 取消選取核取方塊。 如果選中此複選框，則用戶必須是所選 [!DNL Audience Manager] 夥伴的列出用戶。 建議您選取此選項作為最佳實務。
+1. 在區段 **[!UICONTROL Scope]** 中，視需要選取或取 **[!UICONTROL Read]** 消 **[!UICONTROL Write]** 選取和核取方塊。
+1. 在該部 **[!UICONTROL Grant Type]** 分中，選擇所需的授權方法。 建議您使用預設的設定和 [!UICONTROL Password] 選 [!UICONTROL Refresh-token] 項。
 
-   * **[!UICONTROL Implicit]**：如果您選取此選項，則 [!UICONTROL Redirect URI] 會啓用方塊。使用者在驗證後獲得自動存取Token，並立即傳送至重新導向 [!DNL URI]。
-   * **[!UICONTROL Authorization Code]**：如果您選取此選項，則 [!UICONTROL Redirect URI] 會啓用方塊。使用者在進行驗證後會返回用戶端，然後傳送至重新導向 [!DNL URI]。
-   * **[!UICONTROL Password]**：使用者會使用使用者輸入的密碼進行驗證，而非透過授權伺服器進行自動驗證嘗試。
-   * **[!UICONTROL Refresh_token]**：用來重新整理過期的存取Token長時間。
+   * **[!UICONTROL Implicit]**:如果您選取此選項，則 [!UICONTROL Redirect URI] 會啟用方塊。 在經過驗證後，用戶被給予自動訪問令牌，並且立即被發送到重定向 [!DNL URI]。
+   * **[!UICONTROL Authorization Code]**:如果您選取此選項，則 [!UICONTROL Redirect URI] 會啟用方塊。 在經過驗證後，用戶被返回到客戶端，然後被發送到重定向 [!DNL URI]。
+   * **[!UICONTROL Password]**:使用用戶輸入的密碼來驗證用戶，而不是通過授權伺服器自動驗證嘗試。
+   * **[!UICONTROL Refresh_token]**:用於在較長的時間內刷新過期的訪問令牌。
 
-1. **[!UICONTROL Redirect URI]** 在方塊中指定所需 [!DNL URI]。只有當您選取 **[!UICONTROL Implicit]** 和 **[!UICONTROL Authorization_code]** 授予類型時，才會啓用此選項。**[!UICONTROL Redirect URI]** 此方塊可讓您指定可接受 [!DNL URI] 值的逗號分隔值。這是用戶端 [!DNL URI] 的使用者被重新導向至之後，核准用戶端以 [!DNL API] 進行存取。
-1. 指定所要的有效期時間(以秒為單位)，以存取和重新整理Token有效期。
+1. 在方 **[!UICONTROL Redirect URI]** 塊中，指定所要的 [!DNL URI]。 只有在您選取和授與類型時，才 **[!UICONTROL Implicit]** 會啟 **[!UICONTROL Authorization_code]** 用此選項。 此方 **[!UICONTROL Redirect URI]** 塊可讓您指定可接受值的逗號分隔 [!DNL URI] 值。 這是在 [!DNL URI] 批准用戶端進行存取後，會重新導向至用戶端的使 [!DNL API] 用者。
+1. 指定存取和重新整理Token過期所需的過期時間（以秒為單位）。
 
-   * **[!UICONTROL Access Token Expiration Time]**：存取Token在發佈後有效的秒數。可以是null，使用平台預設值(12小時)。也可能是-表示存取Token未過期。
-   * **[!UICONTROL Refresh Token Expiration Time]**：重新整理Token在發佈後有效的秒數。可以是null，以使用平台預設值(30天)。
+   * **[!UICONTROL Access Token Expiration Time]**:存取Token在發出後有效的秒數。 使用平台預設值時可能為null（12小時）。 也可以是-1，以指出存取Token不會過期。
+   * **[!UICONTROL Refresh Token Expiration Time]**:重新整理Token發出後有效的秒數。 使用平台預設值（30天）時可能為null。
 
 1. Click **[!UICONTROL Save]**.
 
-若要刪除 [!UICONTROL OAuth2] 用戶端，請按一下 **[!UICONTROL OAuth2 Clients]**，然後按一 ![](assets/icon_delete.png)**[!UICONTROL Actions]** 下欄中所要的用戶端。
+若要刪除 [!UICONTROL OAuth2] 用戶端，請按 **[!UICONTROL OAuth2 Clients]**&#x200B;一下，然 ![](assets/icon_delete.png) 後按一 **[!UICONTROL Actions]** 下所要用戶端的欄。
 
->[!MORE_贊_ this]
+>[!MORE_LIKE_THIS]
 >
->* [API需求和建議](../admin-oauth2/aam-admin-api-requirements.md)
+>* [API需求與建議](../admin-oauth2/aam-admin-api-requirements.md)
 
