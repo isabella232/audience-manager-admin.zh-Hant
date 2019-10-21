@@ -6,11 +6,11 @@ solution-image: assets/aam-icon-24.png
 getting-started-title: 快速入門
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
 tutorials-title: 教學課程
-tutorials-url: https://helpx.adobe.com/audience-manager/kt/index/aam-videos.html
+tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager-admin.en
 index: false
 translation-type: tm+mt
-source-git-commit: a6af108f2d22ed648e87b09198f34f89ebb5e906
+source-git-commit: b9d0dc2a2daf067435b62e4d2e2bc0784fbe3baf
 
 ---
 
