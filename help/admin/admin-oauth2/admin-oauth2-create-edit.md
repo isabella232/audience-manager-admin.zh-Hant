@@ -5,7 +5,7 @@ seo-title: OAuth2用戶端
 title: OAuth2用戶端
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaa
 translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 若要刪除 [!UICONTROL OAuth2] 用戶端，請按 **[!UICONTROL OAuth2 Clients]**&#x200B;一下，然 ![](assets/icon_delete.png) 後按一 **[!UICONTROL Actions]** 下所要用戶端的欄。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [API需求與建議](../admin-oauth2/aam-admin-api-requirements.md)
 
