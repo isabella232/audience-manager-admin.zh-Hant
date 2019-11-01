@@ -5,7 +5,7 @@ seo-title: 適用於公司的裝置圖表選項
 title: 適用於公司的裝置圖表選項
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
 translation-type: tm+mt
-source-git-commit: 10adb6b06160f5a5c4068483b407e5798fc10150
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 10adb6b06160f5a5c4068483b407e5798fc10150
 
 ![](assets/adminUI2.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [定義的配置檔案合併規則選項](https://marketing.adobe.com/resources/help/en_US/aam/merge-rule-definitions.html)
 >* [資料來源設定和功能表選項](https://marketing.adobe.com/resources/help/en_US/aam/datasource-settings-definitions.html)
