@@ -5,7 +5,7 @@ seo-title: 審核記錄
 title: 審核記錄
 uuid: null
 translation-type: tm+mt
-source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
+source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
 
 ---
 
@@ -16,11 +16,13 @@ source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 
 > [!NOTE]
 >
->[!UICONTROL Audit Logging] 目前正在開發中，且可能會有所變動。 請記錄您在（團隊）中遇到的 [!DNL JIRA] 任何[!DNL UI] 問題
+> 功 [!UICONTROL Audit Logging] 能和檔案目前正在開發中，可能會有所變更。 請記錄您在（團隊）中遇到 [!DNL JIRA] 的任[!DNL UI] 何問題。
 
 ![審計日誌視圖](assets/audit-logging-img.png)
 
-在「審 **核類型** 」下拉式選取器中，選擇下列選項：
+<!-- 
+
+In the **Audit Type** drop-down selector, choose between:
 
 * [!UICONTROL Partner]
 * [!UICONTROL User]
@@ -39,25 +41,27 @@ source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 * [!UICONTROL Model]
 * [!UICONTROL Segment Test Group]
 
-物 **件ID** 是您所研究項目的ID。 請參閱下表，每種情況下，其ID對應於「物件ID」:
+The **Object ID** is the ID of the item you're researching. See the table below for which ID corresponds to the Object ID in each case:
 
-| 審計類型 | 物件ID |
+Audit Type | Object ID |
 ---------|----------|
-| [!UICONTROL Partner] | 合作夥伴ID - PID |
-| [!UICONTROL User] | 使用者 ID |
-| [!UICONTROL Group] | B3 |
-| [!UICONTROL Datasource Summary] | 資料來源ID |
-| [!UICONTROL General Datasource] | 資料來源ID |
-| [!UICONTROL Merge Rule Datasource] | 資料來源ID |
-| [!UICONTROL Data Feed] |  資料饋送ID |
-| [!UICONTROL Data Feed Subscription] |  資料饋送ID |
-| [!UICONTROL Trait Summary] | SID（特徵） |
-| [!UICONTROL Trait Rule] | SID（特徵） |
-| [!UICONTROL Segment Summary] |  |
-| [!UICONTROL Destination Summary] |  |
-| [!UICONTROL Server-to-Server Destination] | 不適用 |
-| [!UICONTROL Derived Signal] | 不適用 |
-| [!UICONTROL Model] | 不適用 |
-| [!UICONTROL Segment Test Group] | 不適用 |
+ [!UICONTROL Partner] | Partner ID - PID |
+ [!UICONTROL User] | User ID |
+ [!UICONTROL Group] | B3 |
+ [!UICONTROL Datasource Summary] | Data Source ID |
+ [!UICONTROL General Datasource] | Data Source ID |
+ [!UICONTROL Merge Rule Datasource] | Data Source ID |
+ [!UICONTROL Data Feed] | Data Feed ID |
+ [!UICONTROL Data Feed Subscription] | Data Feed ID |
+ [!UICONTROL Trait Summary] | SID (trait) |
+ [!UICONTROL Trait Rule] | SID (trait) |
+ [!UICONTROL Segment Summary] |  |
+ [!UICONTROL Destination Summary] |  |
+ [!UICONTROL Server-to-Server Destination]| N/A |
+ [!UICONTROL Derived Signal] | N/A |
+ [!UICONTROL Model] | N/A |
+ [!UICONTROL Segment Test Group] | N/A |
 
-使 [!UICONTROL Start Date] 用([!DNL UTC]) [!UICONTROL End Date] 和([!DNL UTC])縮小記錄檔的時間間隔。
+ Use [!UICONTROL Start Date] ([!DNL UTC]) and [!UICONTROL End Date] ([!DNL UTC]) to narrow down the time interval of the logs.
+
+ -->
