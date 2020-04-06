@@ -5,7 +5,7 @@ seo-title: 審核記錄
 title: 審核記錄
 uuid: null
 translation-type: tm+mt
-source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
+source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
 
 在除 [!UICONTROL  Audit Logging] 錯客戶問題時，請先使用。
 
-> [!NOTE]
+>[!NOTE]
 >
-> 功 [!UICONTROL Audit Logging] 能和檔案目前正在開發中，可能會有所變更。 請記錄您在（團隊）中遇到 [!DNL JIRA] 的任[!DNL UI] 何問題。
+>功 [!UICONTROL Audit Logging] 能和檔案目前正在開發中，可能會有所變更。 請記錄您在（團隊）中遇到 [!DNL JIRA] 的任[!DNL UI] 何問題。
 
 ![審計日誌視圖](assets/audit-logging-img.png)
 
