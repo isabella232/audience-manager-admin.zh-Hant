@@ -1,16 +1,19 @@
 ---
 product: audience-manager
 audience: admin
-user-guide-title: Audience manager管理指南
+user-guide-title: Audience Manager管理指南
 translation-type: tm+mt
-source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
+source-git-commit: 5510710a65beb47cc6e8ee48a64a4efe91e4b904
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 6%
 
 ---
 
 
-# Audience manager管理指南 {#admin-guide}
+# Audience Manager管理指南 {#admin-guide}
 
-+ [Audience manager管理首頁](admin-home.md)
++ [Audience Manager管理首頁](admin-home.md)
 + [登入Audience Manager管理員](admin-login.md)
 + [如何申請功能管理員存取權](admin-access.md)
 + 公司{#companies}
@@ -46,7 +49,6 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 + OAuth2用戶端{#oath2-clients}
    + [OAuth2用戶端](admin-oauth2/admin-oauth2-create-edit.md)
    + [API需求與建議](admin-oauth2/aam-admin-api-requirements.md)
-+ [整合使用者](admin-manage-integration-users.md)
 + [審核記錄](admin-audit-logging.md)
 + [我的個人檔案](admin-my-profile.md)
 + [目標設定疑難排解](admin-destination-troubleshooting.md)
