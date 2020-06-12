@@ -1,16 +1,19 @@
 ---
 description: 使用Audience Manager管理工具中的「伺服器」頁面，建立新的FTP伺服器或編輯現有伺服器。
 seo-description: 使用Audience Manager管理工具中的「伺服器」頁面，建立新的FTP伺服器或編輯現有伺服器。
-seo-title: 建立或編輯FTP伺服器
-title: 建立或編輯FTP伺服器
+seo-title: 建立或編輯 FTP 伺服器
+title: 建立或編輯 FTP 伺服器
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
 
-# 建立或編輯FTP伺服器 {#create-or-edit-an-ftp-server}
+# 建立或編輯 FTP 伺服器{#create-or-edit-an-ftp-server}
 
 使用 [!UICONTROL Servers] Audience Manager管理工具中的頁面來建立新的FTP伺服器或編輯現有伺服器。
 
@@ -18,27 +21,27 @@ source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
 >
 >您必須具有角色 [!UICONTROL DEXADMIN] 才能建立新伺服器或編輯現有伺服器。
 
-1. 若要建立新伺服器，請按一下 **[!UICONTROL Servers]** &gt; **[!UICONTROL Create Server]**。 要編輯現有伺服器，請在列中按一下所需的服 **[!UICONTROL Label]** 務器。
+1. 若要建立新伺服器，請按一下 **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**。 要編輯現有伺服器，請在列中按一下所需的服 **[!UICONTROL Label]** 務器。
 1. 指定此伺服器的所需標籤。
 1. 從下拉 **[!UICONTROL Protocol]** 式清單中，選擇所要的通訊協定： **FTP**。
 
    >[!NOTE]
    >
-   >建議您最好將檔案當做 [!DNL Amazon S3] 從合作夥伴取得檔案並傳送給合作夥伴的方法。 [!DNL Amazon S3] 提供簡單的web services介面，可用來隨時隨地儲存和擷取任何數量的資料。 如需詳細資訊，請 [參閱Audience manager使用指南中的](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html)*關於Amazon S3*。
+   >建議您最好將檔案當做 [!DNL Amazon S3] 從合作夥伴取得檔案並傳送給合作夥伴的方法。 [!DNL Amazon S3] 提供簡單的web services介面，可用來隨時隨地儲存和擷取任何數量的資料。 如需詳細資訊，請 [參閱Audience Manager使用指南中的](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html)*關於Amazon S3*。
 
 1. 填寫欄位: 
 
-   * **[!UICONTROL Type]** :選擇所需的加密類型：或 **[!UICONTROL SFTP]** 者 **[!UICONTROL FTPs/TLS]**。
-   * **[!UICONTROL Domain]** :指定此伺服器所需的網域（主機）。
-   * **[!UICONTROL Port]** :為此伺服器指定所需的埠。 每個加密類型都會顯示預設埠。 如有必要，可以更改預設埠。
-   * **[!UICONTROL Remote Path]** :為此伺服器指定所需的遠程路徑。 如果您將此欄位留空，Audience manager會將檔案置於預設目錄中。
-   * **[!UICONTROL .tmp File Rename on Completion]** :啟用此選項可在完成時重 `.tmp` 新命名檔案。
-   * **[!UICONTROL Filename Suffix]** :指定要附加來傳輸檔案的文字。
-   * **[!UICONTROL Moved to When Finished]** :指定要在完成時移動傳輸檔案的位置的路徑。
-   * **[!UICONTROL Authentication]** :指定所需的伺服器驗證方法：或 **[!UICONTROL Username/Password]** 者 **[!UICONTROL SSH Key]**。
+   * **[!UICONTROL Type]:**選擇所需的加密類型：**[!UICONTROL SFTP]**或&#x200B;**[!UICONTROL FTPs/TLS]**者。
+   * **[!UICONTROL Domain]:**指定此伺服器所需的網域（主機）。
+   * **[!UICONTROL Port]:**為此伺服器指定所需的埠。 每個加密類型都會顯示預設埠。 如有必要，可以更改預設埠。
+   * **[!UICONTROL Remote Path]:**為此伺服器指定所需的遠程路徑。 如果您將此欄位留空，Audience Manager會將檔案置於預設目錄中。
+   * **[!UICONTROL .tmp File Rename on Completion]:**啟用此選項可在完成時重`.tmp`新命名檔案。
+   * **[!UICONTROL Filename Suffix]:**指定要附加來傳輸檔案的文字。
+   * **[!UICONTROL Moved to When Finished]:**指定要在完成時移動傳輸檔案的位置的路徑。
+   * **[!UICONTROL Authentication]:**指定所需的伺服器驗證方法：**[!UICONTROL Username/Password]**或&#x200B;**[!UICONTROL SSH Key]**者。
    >[!NOTE]
    >
-   >請記得將我們的出口列入白名單 [!DNL FTP][!DNL IP]: **52.44.29.204**。
+   >請記得將我們的出 [!DNL FTP] 口添加 [!DNL IP] 到允許的IP清單中： **52.44.29.204**。
 
 1. 針對 **[!UICONTROL SSH Key]** 驗證：
    1. 從任何或機器產生公用／私 [!DNL Linux] 用金 [!DNL Mac] 鑰對。
