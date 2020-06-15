@@ -5,9 +5,9 @@ seo-title: 建立或編輯 FTP 伺服器
 title: 建立或編輯 FTP 伺服器
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+source-git-commit: 78d694670e7abdc18938c5be729ad499e2647825
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '423'
 ht-degree: 5%
 
 ---
@@ -44,6 +44,9 @@ ht-degree: 5%
    >請記得將我們的出 [!DNL FTP] 口添加 [!DNL IP] 到允許的IP清單中： **52.44.29.204**。
 
 1. 針對 **[!UICONTROL SSH Key]** 驗證：
+   >[!NOTE]
+   >
+   >配置SSH密鑰驗證時，請務必始終僅以OpenSSH格式生成公共密鑰和私有密鑰。
    1. 從任何或機器產生公用／私 [!DNL Linux] 用金 [!DNL Mac] 鑰對。
    1. 將公 **開金鑰** ，交給用戶端以更新其伺服 [!DNL SFTP] 器。 他們必須在其伺服器上包含公開金鑰的所有文字，包括 `-----BEGIN RSA PRIVATE KEY-----` 和 `-----END RSA PRIVATE KEY-----` 。 作為交換，他們必須提供安裝密鑰時所使用的用戶名。
    1. 使用用戶端提供的使用者名稱欄位更新使用者名稱欄位，使用私密金鑰更新 **金鑰欄位**。
