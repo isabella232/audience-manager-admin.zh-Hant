@@ -1,12 +1,12 @@
 ---
 description: 依日期列出 Audience Manager 管理員手冊的所有更新 (新增、刪除和更正項目)。
 seo-description: 依日期列出 Audience Manager 管理員手冊的所有更新 (新增、刪除和更正項目)。
-seo-title: 文件更新
-title: 文件更新
+seo-title: 年文件更新
+title: 年文件更新
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e60aa0ac341d74454bfe00a4f56add3a9f9e281b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 100%
 
