@@ -1,19 +1,22 @@
 ---
-description: 測試版環境是用於測試Audience manager實作。 在測試中所做的變更不會影響生產資料。 Audience Manager測試版環境是生產環境的小型獨立版。 您必須在此環境中輸入並收集您要測試的所有資料。
-seo-description: 測試版環境是用於測試Audience manager實作。 在測試中所做的變更不會影響生產資料。 Audience Manager測試版環境是生產環境的小型獨立版。 您必須在此環境中輸入並收集您要測試的所有資料。
+description: 測試版環境是用於測試Audience Manager實作。 在測試中所做的變更不會影響生產資料。 Audience Manager測試版環境是生產環境的小型獨立版。 您必須在此環境中輸入並收集您要測試的所有資料。
+seo-description: 測試版環境是用於測試Audience Manager實作。 在測試中所做的變更不會影響生產資料。 Audience Manager測試版環境是生產環境的小型獨立版。 您必須在此環境中輸入並收集您要測試的所有資料。
 seo-title: 測試版環境
 solution: Audience Manager
 title: 測試版環境
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 translation-type: tm+mt
 source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 3%
 
 ---
 
 
 # 測試版環境 {#beta-environment}
 
-測試版環境是用於測試Audience manager實作。 在測試中所做的變更不會影響生產資料。 Audience Manager測試版環境是生產環境的小型獨立版。 您必須在此環境中輸入並收集您要測試的所有資料。
+測試版環境是用於測試Audience Manager實作。 在測試中所做的變更不會影響生產資料。 Audience Manager測試版環境是生產環境的小型獨立版。 您必須在此環境中輸入並收集您要測試的所有資料。
 
 ## 概述 {#overview}
 
@@ -34,7 +37,7 @@ source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
 
 要為入站數 [!DNL S3] 據設定儲存段，請執行以下操作：
 
-1. 使用 [**SKMS要求TechOps說明功能**](https://skms.adobe.com/) 。
+1. 使用 [**SKMS要求TechOps說明功能&#x200B;**](https://skms.adobe.com/)。
 1. 前往左 **[!UICONTROL Request TechOps Help]** 側導覽邊欄。
 1. 在中 **[!UICONTROL Request Search]**，在搜尋欄位中輸入Audience Manager。
 1. 在搜尋結果中向下捲動，然後按一下 **Audience Manager - S3 Inbound / Outbound Account Provisioning**。
@@ -54,7 +57,7 @@ source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
 
 1. 在回應標題中尋找「」，以確認您的 [!UICONTROL DCS] 請求是否由測試版[!DNL sandbox]提供 [!UICONTROL DCS] 給您。
 
-   例如:
+   例如：
 
    ```
    curl -v http://dcs-beta.demdex.net/?event
