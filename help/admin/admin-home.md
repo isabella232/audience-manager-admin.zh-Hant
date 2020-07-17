@@ -4,9 +4,9 @@ seo-description: Audience Manager 管理員工具可讓您新增及設定公司�
 seo-title: Audience Manager 管理平台首頁
 title: Audience Manager 管理平台首頁
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
