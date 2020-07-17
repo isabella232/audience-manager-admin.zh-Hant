@@ -6,11 +6,14 @@ title: 管理容器
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 7%
 
 ---
 
 
-# 管理容器 {#manage-containers}
+# 管理容器{#manage-containers}
 
 檢視或編輯容器的資料提供者。
 
@@ -24,7 +27,7 @@ source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
    使用 [!UICONTROL Search] 清單底部的方塊或分頁控制項，以尋找所需的公司。 您可以按一下所需欄的標題，以遞增或遞減順序來排序每個欄。
 
-1. Click the **[!UICONTROL Containers]** tab.
+1. 按一下標 **[!UICONTROL Containers]** 簽。
 
    ![](assets/containers.png)
 
@@ -40,5 +43,5 @@ source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 >[!MORELIKETHIS]
 >
->* [ID與Media Optimizer同步](../companies/admin-amo-sync.md#concept_2B5537233DAA4860B3503B344F937D83)
+>* [與 Media Optimizer 同步的 ID](../companies/admin-amo-sync.md#concept_2B5537233DAA4860B3503B344F937D83)
 
