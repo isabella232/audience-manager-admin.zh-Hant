@@ -1,16 +1,19 @@
 ---
 description: 依預設，所有公司都會將資料與Adobe Media Optimizer(AMO)同步。 在「管理員UI」中，每個公司容器都有管理此程式的資料來源。 此資料來源為Adobe AMO(ID 411)。 按一下所選公司的容器列（在「容器」標籤下），停用此預設同步，或新增及移除其他資料來源至AMO同步程式。
 seo-description: 依預設，所有公司都會將資料與Adobe Media Optimizer(AMO)同步。 在「管理員UI」中，每個公司容器都有管理此程式的資料來源。 此資料來源為Adobe AMO(ID 411)。 按一下所選公司的容器列（在「容器」標籤下），停用此預設同步，或新增及移除其他資料來源至AMO同步程式。
-seo-title: ID與Media Optimizer同步
-title: ID與Media Optimizer同步
+seo-title: 與 Media Optimizer 同步的 ID
+title: 與 Media Optimizer 同步的 ID
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
 translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 6%
 
 ---
 
 
-# ID與Media Optimizer同步 {#id-syncing-with-media-optimizer}
+# 與 Media Optimizer 同步的 ID{#id-syncing-with-media-optimizer}
 
 依預設，所有公司都會將資料與( [!DNL Adobe Media Optimizer][!DNL AMO])同步。 在中， [!UICONTROL Admin UI]每個公司容器都有管理此程式的資料來源。 此資料來源 [!UICONTROL Adobe AMO] 為([!UICONTROL ID] 411)。 按一下所選公司的容器列(在 [!UICONTROL Containers] 標籤下)，停用此預設同步，或新增及移除其他資料來源至同步 [!DNL AMO] 程式。
 
