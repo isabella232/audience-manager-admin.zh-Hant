@@ -6,6 +6,9 @@ title: 刪除伺服器
 uuid: 21d8feeb-a205-43bb-9bc1-9048c918a80a
 translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 10%
 
 ---
 
