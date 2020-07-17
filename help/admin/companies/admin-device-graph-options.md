@@ -1,32 +1,35 @@
 ---
-description: 「裝置圖形選項」適用於參與Adobe Experience Cloud Device Co-op的公司。 如果客戶也與與與Audience manager整合的第三方裝置圖形提供者有合約關係，本節將顯示該裝置圖形的選項。 這些選項位於「公司>公司名稱>描述檔>裝置圖形選項」中。
-seo-description: 「裝置圖形選項」適用於參與Adobe Experience Cloud Device Co-op的公司。 如果客戶也與與與Audience manager整合的第三方裝置圖形提供者有合約關係，本節將顯示該裝置圖形的選項。 這些選項位於「公司>公司名稱>描述檔>裝置圖形選項」中。
+description: 「裝置圖形選項」適用於參與Adobe Experience Cloud Device Co-op的公司。 如果客戶也與與與Audience Manager整合的第三方裝置圖形提供者有合約關係，本節將顯示該裝置圖形的選項。 這些選項位於「公司>公司名稱>描述檔>裝置圖形選項」中。
+seo-description: 「裝置圖形選項」適用於參與Adobe Experience Cloud Device Co-op的公司。 如果客戶也與與與Audience Manager整合的第三方裝置圖形提供者有合約關係，本節將顯示該裝置圖形的選項。 這些選項位於「公司>公司名稱>描述檔>裝置圖形選項」中。
 seo-title: 適用於公司的裝置圖表選項
 title: 適用於公司的裝置圖表選項
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
 translation-type: tm+mt
 source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 4%
 
 ---
 
 
-# 適用於公司的裝置圖表選項 {#device-graph-options-for-companies}
+# 適用於公司的裝置圖表選項{#device-graph-options-for-companies}
 
-參 [!UICONTROL Device Graph Options] 與此計畫的公司可使用 [!DNL Adobe Experience Cloud Device Co-op]。 如果客戶也與與與Audience manager整合的第三方裝置圖形提供者有合約關係，本節將顯示該裝置圖形的選項。 這些選項位於 [!UICONTROL Companies] &gt;公司名稱&gt; [!UICONTROL Profile] &gt; [!UICONTROL Device Graph Options]。
+參 [!UICONTROL Device Graph Options] 與此計畫的公司可使用 [!DNL Adobe Experience Cloud Device Co-op]。 如果客戶也與與與Audience Manager整合的第三方裝置圖形提供者有合約關係，本節將顯示該裝置圖形的選項。 這些選項位於 [!UICONTROL Companies] >公司名稱> [!UICONTROL Profile] > [!UICONTROL Device Graph Options]。
 
 ![](assets/adminUIdataSource.png)
 
 此圖為協力廠商裝置圖形選項使用通用名稱。 在生產中，這些名稱來自裝置圖形提供者，可能與此處顯示的名稱不同。 例如，通常 [!DNL LiveRamp] （但並不總是）有下列選項：
 
-* 請先閱讀 "[!DNL LiveRamp]"
+* 請先閱讀 &quot;[!DNL LiveRamp]&quot;
 * 包含中間名稱（視情況而定）
-* 以"[!UICONTROL - Household]"或"[!UICONTROL -Person]"結尾
+* 以&quot;[!UICONTROL - Household]&quot;或&quot;[!UICONTROL -Person]&quot;結尾
 
 ## 已定義設備圖形選項 {#device-graph-options-defined}
 
 您在此處選取的裝置圖表選項會顯示或隱 [!UICONTROL Device Options] 藏客戶在建立 [!DNL Audience Manager] 時可用的選項 [!UICONTROL Profile Merge Rule]。
 
-### Co-op裝置圖表 {#co-op-graph}
+### 合作裝置圖表 {#co-op-graph}
 
 參與 [Adobe Experience Cloud Device Co-op的客戶可使用這些選項來建立具有確定性](https://marketing.adobe.com/resources/help/en_US/mcdc/) 和概 [!UICONTROL Profile Merge Rule] 率性資料的資料 [](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-links.html)。 透過 [!DNL Corporate Provisioning Team] 後端呼叫來啟動並停用此選 [!DNL API] 項。 您不能在中選中或清除這些框 [!DNL Admin UI]。 此外，選項 **[!UICONTROL Co-op Device Graph]** 和選 **[!UICONTROL Company Device Graph]** 項互斥。 客戶可以要求我們啟動一個或另一個，但不能同時啟動兩者。 勾選後，這會顯 **[!UICONTROL Co-op Device Graph]** 示設定中 [!UICONTROL Device Options] 的控制項 [!UICONTROL Profile Merge Rule]。
 
@@ -48,6 +51,6 @@ source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 >[!MORELIKETHIS]
 >
->* [定義的配置檔案合併規則選項](https://marketing.adobe.com/resources/help/en_US/aam/merge-rule-definitions.html)
+>* [定義的設定檔合併規則選項](https://marketing.adobe.com/resources/help/en_US/aam/merge-rule-definitions.html)
 >* [資料來源設定和功能表選項](https://marketing.adobe.com/resources/help/en_US/aam/datasource-settings-definitions.html)
 
