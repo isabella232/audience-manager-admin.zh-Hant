@@ -6,15 +6,18 @@ title: 如何授權批次目標的跨帳戶Amazon S3儲存桶訪問
 uuid: da2bcbda-a765-437a-bfe9-4355383a4730
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 0%
 
 ---
 
 
-# 如何授權批次目標的跨帳戶Amazon S3儲存桶訪問{#authorize-cross-account-bucket-batch}
+# How To Authorize Cross-Account Amazon S3 Bucket Access for Batch Destinations{#authorize-cross-account-bucket-batch}
 
 有些客戶可能不想提供Adobe的存 [!DNL Amazon S3] 取權或機密金鑰，以授權將目標資料上傳至其儲存區。
 
-我們提供給客戶的另一種選擇 [!UICONTROL Cross-Account Bucket Permissions] 是 [!DNL Amazon S3]。 此過程在 [AWS文檔中描述](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)。 若要在Audience manager中啟用此替代選項，請遵循下列步驟：
+我們提供給客戶的另一種選擇 [!UICONTROL Cross-Account Bucket Permissions] 是 [!DNL Amazon S3]。 此過程在 [AWS文檔中描述](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)。 若要在Audience Manager中啟用此替代選項，請遵循下列步驟：
 
 1. 前往並 **[!UICONTROL Servers]** 選取 **[!UICONTROL Create Server]**。
 1. 在下 **[!UICONTROL S3]** 拉式遮 **[!UICONTROL Protocol/Credentials]** 色片中選取。
