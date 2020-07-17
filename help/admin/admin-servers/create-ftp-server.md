@@ -39,6 +39,7 @@ ht-degree: 5%
    * **[!UICONTROL Filename Suffix]:**指定要附加來傳輸檔案的文字。
    * **[!UICONTROL Moved to When Finished]:**指定要在完成時移動傳輸檔案的位置的路徑。
    * **[!UICONTROL Authentication]:**指定所需的伺服器驗證方法：**[!UICONTROL Username/Password]**或&#x200B;**[!UICONTROL SSH Key]**者。
+
    >[!NOTE]
    >
    >請記得將我們的出 [!DNL FTP] 口添加 [!DNL IP] 到允許的IP清單中： **52.44.29.204**。
