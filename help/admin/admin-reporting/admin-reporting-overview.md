@@ -1,16 +1,19 @@
 ---
 description: 建立新報表或編輯或刪除現有報表，以管理Audience Manager報表。 您也可以將入口網站使用者指派為Tableau使用者。
 seo-description: 建立新報表或編輯或刪除現有報表，以管理Audience Manager報表。 您也可以將入口網站使用者指派為Tableau使用者。
-seo-title: 報告
-title: 報告
+seo-title: 報表
+title: 報表
 uuid: d857044b-926d-4862-b8bc-799cb3ecca56
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 2%
 
 ---
 
 
-# 報告 {#reporting}
+# 報表 {#reporting}
 
 建立新報表或編輯或刪除現有報表，以管理Audience Manager報表。 您也可以將入口網站使用者指派為 [!DNL Tableau] 使用者。
 
