@@ -1,20 +1,23 @@
 ---
-description: 這些資訊可協助您在Audience manager中設定目標，並避免常見問題。
-seo-description: 這些資訊可協助您在Audience manager中設定目標，並避免常見問題。
-seo-title: 目標設定疑難排解
-title: 目標設定疑難排解
+description: 這些資訊可協助您在Audience Manager中設定目標，並避免常見問題。
+seo-description: 這些資訊可協助您在Audience Manager中設定目標，並避免常見問題。
+seo-title: 目的地設定疑難排解
+title: 目的地設定疑難排解
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 translation-type: tm+mt
 source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 4%
 
 ---
 
 
-# 目標設定疑難排解 {#destination-setup-troubleshooting}
+# 目的地設定疑難排解{#destination-setup-troubleshooting}
 
-這些資訊可協助您在Audience manager中設定目標，並避免常見問題。
+這些資訊可協助您在Audience Manager中設定目標，並避免常見問題。
 
-## 我設定了目的地，但我沒看到任何檔案。 他們在哪？ {#destination-no-files}
+## 我設定了目的地，但我沒看到任何檔案。 它們在哪裡？{#destination-no-files}
 
 <!-- c_dest_tshooting.xml -->
 
@@ -22,8 +25,8 @@ source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
 
 ### 目標配置錯誤
 
-* **[!UICONTROL UserID]密** 鑰不正確：鍵 [!UICONTROL UserID] 是此目 [!UICONTROL MasterDPID] 的地的，是ID值將被超出界的基礎。 即使透過 [!UICONTROL UserID] 下拉式清單可選取索引鍵，也不一定表示有ID/特徵／區段對應至此值。 如果進 [!UICONTROL Outbound] 程（在建立目標後執行）找不到任何對應至此索引鍵的使用者， [!UICONTROL UserID] 則不會有任何資料超出界限。
-* **** 未在檔案資料來源中選取：當選擇除外的任何目標類 [!UICONTROL S2S]型時，會在標有標籤的畫面底部顯示區段 [!UICONTROL Configure Data Sources]。 首次出現此部分時，不會選擇任何值。 如果您忘記按一下核取方 [!UICONTROL All First Party] 塊或從視窗個別選取資料來源，則 [!UICONTROL Available Data Sources] 不會有任何資料超出界限。
+* **密[!UICONTROL UserID]鑰不正確：** 鍵 [!UICONTROL UserID] 是此目 [!UICONTROL MasterDPID] 的地的，是ID值將被超出界的基礎。 即使透過 [!UICONTROL UserID] 下拉式清單可選取索引鍵，也不一定表示有ID/特徵／區段對應至此值。 如果進 [!UICONTROL Outbound] 程（在建立目標後執行）找不到任何對應至此索引鍵的使用者， [!UICONTROL UserID] 則不會有任何資料超出界限。
+* **未在檔案資料來源中選取：** 當選擇除外的任何目標類 [!UICONTROL S2S]型時，會在標有標籤的畫面底部顯示區段 [!UICONTROL Configure Data Sources]。 首次出現此部分時，不會選擇任何值。 如果您忘記按一下核取方 [!UICONTROL All First Party] 塊或從視窗個別選取資料來源，則 [!UICONTROL Available Data Sources] 不會有任何資料超出界限。
 
 ### 配置錯誤的格式
 
@@ -68,26 +71,26 @@ source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
 
 ### 外發時間不足
 
-外框程式每天執行兩次，而且有多個程式（外框、發佈、推送至外部位置等）必須在檔案推送至其最終目的地之前執行。 一個很好的經驗法則是，目標應至少在24小時內完全配置，您才能預期資料會推送至外部位置。
+外框程式每天執行兩次，而且有多個程式（外框、發佈、推送至外部位置等） 必須在檔案推送至其最終目的地之前執行。 一個很好的經驗法則是，目標應至少在24小時內完全配置，您才能預期資料會推送至外部位置。
 
 ### 檔案分割大小過大
 
-當將檔案外框至目的地時，您可以將較大的外框檔案分割為檔案區塊。 請確定個別檔案區塊不超過10 GB。 另請參閱「 [出站資料檔案名：語法和範例](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html)。
+當將檔案外框至目的地時，您可以將較大的外框檔案分割為檔案區塊。 請確定個別檔案區塊不超過10 GB。 See also, [Outbound Data File Name: Syntax and Examples](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
 
 
 ## 如何設定目標，將Experience Cloud ID、客戶ID或Audience Manager ID匯出至傳出資料檔案 {#set-up-destinations-export}
 
-本頁說明如何設定目的地，以匯出您要輸入的ID類型的資料 [!UICONTROL Outbound Data Files]。
+This page shows you how to set up destinations to export data keyed off the ID type you want in [!UICONTROL Outbound Data Files].
 
 <!-- set-up-destinations-mcid-aamid.xml -->
 
-目標可讓客戶透過任何數位通道啟動其資料。 例如，他們可以將觀眾資料匯出至其 [!DNL Adobe Experience Cloud] 他解決方案[!DNL Target]( [!DNL Campaign]、等等)。 或者，他們可以傳送資 [!UICONTROL DSP]料至s [!UICONTROL SSP]、s或任何與Audience manager整合的平台。 我們在「整合Wiki」頁面上保留與我們合作 [的合作夥伴清單](https://wiki.corp.adobe.com/display/MCPI)。
+目標可讓客戶透過任何數位通道啟動其資料。 例如，他們可以將觀眾資料匯出至其 [!DNL Adobe Experience Cloud] 他解決方案[!DNL Target]( [!DNL Campaign]、等等)。 或者，他們可以傳送資 [!UICONTROL DSP]料至s [!UICONTROL SSP]、s或任何與Audience Manager整合的平台。 我們在「整合Wiki」頁面上保留與我們合作 [的合作夥伴清單](https://wiki.corp.adobe.com/display/MCPI)。
 
 >[!NOTE]
 >
 >如需有關在管理員UI中建立目標的詳細逐步說明，請參閱「建立或編 [輯公司目標」文章](companies/admin-manage-company-destinations.md#create-edit-company-destinations) 。
 
-您的客戶想要匯出不同的ID類型，視目標而定。 下面的配置圖表顯示了應選擇哪些選項，以導出與不同ID類型相關的配置檔案資訊。 我們建議您也參考Audience manager [中的ID索引](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html)。 有三個重要的設定要考 [!UICONTROL User ID Key]慮， [!UICONTROL Data Source Type] 即、和 [!UICONTROL Format]。 我們詳細說明下面的所有細節。
+您的客戶想要匯出不同的ID類型，視目標而定。 下面的配置圖表顯示了應選擇哪些選項，以導出與不同ID類型相關的配置檔案資訊。 我們建議您也參考Audience Manager [中的ID索引](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html)。 有三個重要的設定要考 [!UICONTROL User ID Key]慮， [!UICONTROL Data Source Type] 即、和 [!UICONTROL Format]。 我們詳細說明下面的所有細節。
 
 * [!UICONTROL User ID Key]。在中 [!UICONTROL Admin UI]，轉到 **[!UICONTROL Companies]**。 搜尋客戶的公司，然後按一下。 查找標 **[!UICONTROL Destinations]** 簽並按 **[!UICONTROL Add Destination]**。 在工作 **[!UICONTROL Add Destination]** 流中，選擇 [!UICONTROL User ID Key]。 The [!UICONTROL User ID Key] will filter the inming IDs from the target data source and only allow the IDs to pass.
 
@@ -99,7 +102,7 @@ source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
 
 * [!UICONTROL Format]。此選項決定您要匯出的檔案格式。 在工作流 **[!UICONTROL Add Destination]** 的下方， **[!UICONTROL Batch Data]**&#x200B;選擇格式。
 
-若要檢查格式，請前 **[!UICONTROL Admin UI > Formats]** 往並尋找元 [!UICONTROL Data Row] 素。 此元素包含檔案格式的巨集，&lt;MCID&gt;如下例所示。
+若要檢查格式，請前 **[!UICONTROL Admin UI > Formats]** 往並尋找元 [!UICONTROL Data Row] 素。 此元素包含檔案格式的巨集，&lt;MCID>如下例所示。
 
 ![](assets/data_row.PNG)
 
@@ -159,21 +162,21 @@ source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
   <tr> 
    <td colname="col01"> 7 </td> 
    <td colname="col1"> <p>DPID（公司可存取的任何資料來源） </p> </td> 
-   <td colname="col2"> <p>Customer ID </p> </td> 
+   <td colname="col2"> <p>客戶 ID </p> </td> 
    <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
    <td colname="col4"> <p>客戶ID(DPUUID) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 8 </td> 
    <td colname="col1"> <p>DPID（公司可存取的任何資料來源） </p> </td> 
-   <td colname="col2"> <p>Customer ID </p> </td> 
+   <td colname="col2"> <p>客戶 ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
    <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 9 </td> 
    <td colname="col1"> <p>DPID（公司可存取的任何資料來源） </p> </td> 
-   <td colname="col2"> <p>Customer ID </p> </td> 
+   <td colname="col2"> <p>客戶 ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
    <td colname="col4"> <p>Audience Manager UUID </p> </td> 
   </tr> 
@@ -203,4 +206,4 @@ source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
 
 ## 使用個案
 
-假設您使用Audience manager和 [!DNL Campaign]。 為了讓客戶資料在中可操作， [!DNL Campaign]您需要匯出 [!UICONTROL Experience Cloud IDs]。 在這種情況下，應使用配置編號3。
+假設您使用Audience Manager和 [!DNL Campaign]。 為了讓客戶資料在中可操作， [!DNL Campaign]您需要匯出 [!UICONTROL Experience Cloud IDs]。 在這種情況下，應使用配置編號3。
