@@ -1,18 +1,21 @@
 ---
-description: 使用「伺服器」頁面可檢視Audience manager設定中的伺服器清單。 您可以編輯或刪除現有伺服器或建立新伺服器，前提是您已分配了適當的用戶角色。
-seo-description: 使用「伺服器」頁面可檢視Audience manager設定中的伺服器清單。 您可以編輯或刪除現有伺服器或建立新伺服器，前提是您已分配了適當的用戶角色。
-seo-title: 伺服器概觀
-title: 伺服器概觀
+description: 使用「伺服器」頁面可檢視Audience Manager設定中的伺服器清單。 您可以編輯或刪除現有伺服器或建立新伺服器，前提是您已分配了適當的用戶角色。
+seo-description: 使用「伺服器」頁面可檢視Audience Manager設定中的伺服器清單。 您可以編輯或刪除現有伺服器或建立新伺服器，前提是您已分配了適當的用戶角色。
+seo-title: 伺服器概述
+title: 伺服器概述
 uuid: 49488bd7-1bea-4863-ba98-73087a2bb6b2
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 4%
 
 ---
 
 
-# 伺服器概觀 {#servers-overview}
+# 伺服器概述 {#servers-overview}
 
-使用頁 [!UICONTROL Servers] 面可檢視Audience manager設定中的伺服器清單。 您可以編輯或刪除現有伺服器或建立新伺服器，前提是您已分配了適當的用戶角色。
+使用頁 [!UICONTROL Servers] 面可檢視Audience Manager設定中的伺服器清單。 您可以編輯或刪除現有伺服器或建立新伺服器，前提是您已分配了適當的用戶角色。
 
 <!-- c_servers.xml -->
 
