@@ -6,6 +6,9 @@ title: 管理第一方資料提供者
 uuid: 222890cb-2ebd-4e16-a516-51000891ed34
 translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
 
 1. 按一 **[!UICONTROL Companies]**&#x200B;下，然後找出並按一下所要的公司以顯示其 [!UICONTROL Profile] 頁面。 使用 [!UICONTROL Search] 清單底部的方塊或分頁控制項，以尋找所需的公司。 您可以按一下所需欄的標題，以遞增或遞減順序來排序每個欄。
 
-1. Click the **[!UICONTROL First Party Data Providers]** tab.
+1. 按一下標 **[!UICONTROL First Party Data Providers]** 簽。
 
    ![](assets/first_party_providers.png)
 
