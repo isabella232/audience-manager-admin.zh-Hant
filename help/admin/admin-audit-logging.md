@@ -1,16 +1,19 @@
 ---
 description: '在除錯客戶問題時，請首先使用「稽核記錄」。 '
 seo-description: '在除錯客戶問題時，請首先使用「稽核記錄」。 '
-seo-title: 審核記錄
-title: 審核記錄
+seo-title: 稽核記錄
+title: 稽核記錄
 uuid: null
 translation-type: tm+mt
 source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
 
-# 審核記錄 {#audit-logging}
+# 稽核記錄 {#audit-logging}
 
 在除 [!UICONTROL  Audit Logging] 錯客戶問題時，請先使用。
 
