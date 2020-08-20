@@ -5,9 +5,9 @@ seo-title: OAuth2 用戶端
 title: OAuth2 用戶端
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
 translation-type: tm+mt
-source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->請確定您的客戶閱讀 [[!DNL Audience Manager使用指南](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) ]中的OAuth2檔案。
+>請確定您的客戶閱讀 [Audience Manager使用指南中](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) 的OAuth2檔案。
 
 [!DNL OAuth2] 是授權的開放標準，代表資源擁有者提供對資 [!DNL Audience Manager] 源的安全委託存取。
 
@@ -48,16 +48,16 @@ ht-degree: 2%
 1. 在區段 **[!UICONTROL Scope]** 中，視需要選取或取 **[!UICONTROL Read]** 消 **[!UICONTROL Write]** 選取和核取方塊。
 1. 在該部 **[!UICONTROL Grant Type]** 分中，選擇所需的授權方法。 建議您使用預設的設定和 [!UICONTROL Password] 選 [!UICONTROL Refresh-token] 項。
 
-   * **[!UICONTROL Implicit]**: 如果您選取此選項，則 [!UICONTROL Redirect URI] 會啟用方塊。 在經過驗證後，用戶被給予自動訪問令牌，並且立即被發送到重定向 [!DNL URI]。
-   * **[!UICONTROL Authorization Code]**: 如果您選取此選項，則 [!UICONTROL Redirect URI] 會啟用方塊。 在經過驗證後，用戶被返回到客戶端，然後被發送到重定向 [!DNL URI]。
-   * **[!UICONTROL Password]**: 使用用戶輸入的密碼來驗證用戶，而不是通過授權伺服器自動驗證嘗試。
-   * **[!UICONTROL Refresh_token]**: 用於在較長的時間內刷新過期的訪問令牌。
+   * **[!UICONTROL Implicit]**:如果您選取此選項，則 [!UICONTROL Redirect URI] 會啟用方塊。 在經過驗證後，用戶被給予自動訪問令牌，並且立即被發送到重定向 [!DNL URI]。
+   * **[!UICONTROL Authorization Code]**:如果您選取此選項，則 [!UICONTROL Redirect URI] 會啟用方塊。 在經過驗證後，用戶被返回到客戶端，然後被發送到重定向 [!DNL URI]。
+   * **[!UICONTROL Password]**:使用用戶輸入的密碼來驗證用戶，而不是通過授權伺服器自動驗證嘗試。
+   * **[!UICONTROL Refresh_token]**:用於在較長的時間內刷新過期的訪問令牌。
 
 1. 在方 **[!UICONTROL Redirect URI]** 塊中，指定所要的 [!DNL URI]。 只有在您選取和授與類型時，才 **[!UICONTROL Implicit]** 會啟 **[!UICONTROL Authorization_code]** 用此選項。 此方 **[!UICONTROL Redirect URI]** 塊可讓您指定可接受值的逗號分隔 [!DNL URI] 值。 這是在 [!DNL URI] 批准用戶端進行存取後，會重新導向至用戶端的使 [!DNL API] 用者。
 1. 指定存取和重新整理Token過期所需的過期時間（以秒為單位）。
 
-   * **[!UICONTROL Access Token Expiration Time]**: 存取Token在發出後有效的秒數。 使用平台預設值時可能為null（12小時）。 也可以是-1，以指出存取Token不會過期。
-   * **[!UICONTROL Refresh Token Expiration Time]**: 重新整理Token發出後有效的秒數。 使用平台預設值（30天）時可能為null。
+   * **[!UICONTROL Access Token Expiration Time]**:存取Token在發出後有效的秒數。 使用平台預設值時可能為null（12小時）。 也可以是-1，以指出存取Token不會過期。
+   * **[!UICONTROL Refresh Token Expiration Time]**:重新整理Token發出後有效的秒數。 使用平台預設值（30天）時可能為null。
 
 1. 按一下 **[!UICONTROL Save]**.
 
