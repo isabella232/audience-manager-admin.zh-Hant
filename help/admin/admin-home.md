@@ -5,10 +5,10 @@ seo-title: Audience Manager 管理平台首頁
 title: Audience Manager 管理平台首頁
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 translation-type: tm+mt
-source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
+source-git-commit: 04497025c7712f486737034550f64939541d3218
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,10 +20,7 @@ Audience Manager 管理員工具可讓您新增及設定公司、伺服器、報
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
   <tr> 
-   <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p> 
-     <draft-comment otherprops="merge">
-       c_home.xml 
-     </draft-comment>將滑鼠停留在標題上可查看簡要說明。 </p> <p> 
+   <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>全新或精選項目</b> </p> <p>將滑鼠停留在標題上可查看簡要說明。 </p> <p> 
      <ul id="ul_A0416FDB65EB4774821C05664E14AB86"> 
       <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7">方法：為批次目的地授予跨帳戶 Amazon S3 儲存貯體存取權</a> </li> 
       <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export">如何設定匯出 Experience Cloud 的目的地...</a> </li> 
