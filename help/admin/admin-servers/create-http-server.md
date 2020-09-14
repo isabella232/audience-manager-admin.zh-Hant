@@ -5,7 +5,7 @@ seo-title: 建立或編輯 HTTP 伺服器
 title: 建立或編輯 HTTP 伺服器
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: d518ba4011f203a7d450ce76d8c1924f7d73a815
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 7%
@@ -26,13 +26,13 @@ ht-degree: 7%
 1. 從下拉 **[!UICONTROL Protocol]** 式清單中，選擇所要的通訊協定： [!DNL HTTP].
 1. 填寫欄位: 
 
-   * **[!UICONTROL Domain]:**指定此伺服器所需的網域（主機）。
-   * **[!UICONTROL Port]:**為此伺服器指定所需的埠。 每個加密類型都會顯示預設埠。 如有必要，您可以更改預設埠
-   * **[!UICONTROL Maximum Users Per Request]:**指定此伺服器允許的每個請求使用者人數上限。
-   * **[!UICONTROL URL Prefix]:**指定要[!DNL URL]用於此伺服器的前置詞。
-   * **[!UICONTROL Authentication URL]:**指定此[!UICONTROL Authentication URL]伺服器的`HTTP`名稱。
-   * **[!UICONTROL Authentication]:**指定所需的驗證方法：**[!UICONTROL None]**、**[!UICONTROL Username/Password]**或&#x200B;**[!UICONTROL SSH Key]**。
-   * **[!UICONTROL HTTP Signature Header]:**由客戶提[!DNL HTTP]供的包含簽名密鑰的標[!DNL HTTP]頭名稱。 預設值為[!UICONTROL X-Signature]，如下例所示：
+   * **[!UICONTROL Domain]:** 指定此伺服器所需的網域（主機）。
+   * **[!UICONTROL Port]:** 為此伺服器指定所需的埠。 每個加密類型都會顯示預設埠。 如有必要，您可以更改預設埠
+   * **[!UICONTROL Maximum Users Per Request]:** 指定此伺服器允許的每個請求使用者人數上限。
+   * **[!UICONTROL URL Prefix]:** 指定要 [!DNL URL] 用於此伺服器的前置詞。
+   * **[!UICONTROL Authentication URL]:** 指定此 [!UICONTROL Authentication URL] 伺服器的 `HTTP` 名稱。
+   * **[!UICONTROL Authentication]:** 指定所需的驗證方法： **[!UICONTROL None]**、 **[!UICONTROL Username/Password]**&#x200B;或 **[!UICONTROL SSH Key]**。
+   * **[!UICONTROL HTTP Signature Header]:** 由客戶提 [!DNL HTTP] 供的包含簽名密鑰的標 [!DNL HTTP] 頭名稱。 預設值為 [!UICONTROL X-Signature]，如下例所示：
 
       ```
       * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -45,9 +45,9 @@ ht-degree: 7%
       POST message content
       ```
 
-   * **[!UICONTROL HTTP Signature Key]:**用於簽署請求的金[!DNL HTTP]鑰，由客戶提供。
-   * **[!UICONTROL Show Signature Key]:**切換是否在瀏覽器中顯示簽名。
-   * **[!UICONTROL HTTP Signature Encryption Method]:**指定我們用來加密簽名的方法。 除非客[!UICONTROL SHA1]戶另有選擇，否則請使用。
+   * **[!UICONTROL HTTP Signature Key]:** 用於簽署請求的金 [!DNL HTTP] 鑰，由客戶提供。
+   * **[!UICONTROL Show Signature Key]:** 切換是否在瀏覽器中顯示簽名。
+   * **[!UICONTROL HTTP Signature Encryption Method]:** 指定我們用來加密簽名的方法。 除非客 [!UICONTROL SHA1] 戶另有選擇，否則請使用。
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ ht-degree: 7%
    | [!UICONTROL URL Prefix] | [!UICONTROL /segments/aam] |
    | [!UICONTROL Authentication URL] | [!UICONTROL api.partner.com/oauth2/token] |
    | [!UICONTROL Authentication] | [!UICONTROL Username/Password] |
-   | [!UICONTROL Username] | [!UICONTROL *授權&#x200B;*] |
+   | [!UICONTROL Username] | [!UICONTROL *授權*] |
    | [!UICONTROL Password] | your_password_here |
    | [!UICONTROL HTTP Signature Header] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
