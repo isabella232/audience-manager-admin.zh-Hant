@@ -21,13 +21,13 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->依預設，公司會使用一個容器來建立。 您可以在中的用戶介面中為公司建立更多容器 **[!UICONTROL Tools > Tags]**。
+>依預設，公司會使用一個容器來建立。 您可以在&#x200B;**[!UICONTROL Tools > Tags]**&#x200B;的使用者介面中為公司建立更多容器。
 
-1. 按一 **[!UICONTROL Companies]**&#x200B;下，然後找出並按一下所要的公司以顯示其 [!UICONTROL Profile] 頁面。
+1. 按一下&#x200B;**[!UICONTROL Companies]**，然後找出並按一下所要的公司，以顯示其[!UICONTROL Profile]頁面。
 
-   使用 [!UICONTROL Search] 清單底部的方塊或分頁控制項，以尋找所需的公司。 您可以按一下所需欄的標題，以遞增或遞減順序來排序每個欄。
+   使用[!UICONTROL Search]方塊或清單底部的編頁控制項，以尋找所需的公司。 您可以按一下所需欄的標題，以遞增或遞減順序來排序每個欄。
 
-1. 按一下標 **[!UICONTROL Containers]** 簽。
+1. 按一下&#x200B;**[!UICONTROL Containers]**&#x200B;頁籤。
 
    ![](assets/containers.png)
 
@@ -35,11 +35,11 @@ ht-degree: 7%
 
    ![步驟結果](assets/containers_edit.png)
 
-1. 從和清單中移 **[!UICONTROL Available Data Sources]** 動資 **[!UICONTROL Selected Data Sources for This Container]** 料來源，方法是選擇所需的資料來源，然後視需要按一下右箭頭或左箭頭。
+1. 從&#x200B;**[!UICONTROL Available Data Sources]**&#x200B;和&#x200B;**[!UICONTROL Selected Data Sources for This Container]**&#x200B;清單中移動資料來源，方法是選取所需的資料來源，然後視需要按一下右箭頭或左箭頭。
 
-   您也可以從「第三方資料提供者」 [頁面執行此](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)工作。
+   您也可以從[「第三方資料提供者](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)」頁面執行此工作。
 
-1. 如果 **[!UICONTROL Save]** 您進行變更，請按一下。
+1. 如果您進行了更改，請按一下&#x200B;**[!UICONTROL Save]**。
 
 >[!MORELIKETHIS]
 >
