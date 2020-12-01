@@ -19,9 +19,9 @@ ht-degree: 10%
 
 <!-- t_first_party_providers.xml -->
 
-1. 按一 **[!UICONTROL Companies]**&#x200B;下，然後找出並按一下所要的公司以顯示其 [!UICONTROL Profile] 頁面。 使用 [!UICONTROL Search] 清單底部的方塊或分頁控制項，以尋找所需的公司。 您可以按一下所需欄的標題，以遞增或遞減順序來排序每個欄。
+1. 按一下&#x200B;**[!UICONTROL Companies]**，然後找出並按一下所要的公司，以顯示其[!UICONTROL Profile]頁面。 使用[!UICONTROL Search]方塊或清單底部的編頁控制項，以尋找所需的公司。 您可以按一下所需欄的標題，以遞增或遞減順序來排序每個欄。
 
-1. 按一下標 **[!UICONTROL First Party Data Providers]** 簽。
+1. 按一下&#x200B;**[!UICONTROL First Party Data Providers]**&#x200B;頁籤。
 
    ![](assets/first_party_providers.png)
 
@@ -29,5 +29,5 @@ ht-degree: 10%
 
    ![步驟結果](assets/first_party_providers_edit.png)
 
-1. 從清單和清 **[!UICONTROL Available Containers]** 單中移 **[!UICONTROL Selected Containers for This Data Provider]** 動容器，方法是選取所需的容器，然後視需要按一下右箭頭或左箭頭。
-1. 如果 **[!UICONTROL Save]** 您進行變更，請按一下。
+1. 選擇所需的容器，然後視需要按一下右箭頭或左箭頭，從&#x200B;**[!UICONTROL Available Containers]**&#x200B;和&#x200B;**[!UICONTROL Selected Containers for This Data Provider]**&#x200B;清單中移動容器。
+1. 如果您進行了更改，請按一下&#x200B;**[!UICONTROL Save]**。
