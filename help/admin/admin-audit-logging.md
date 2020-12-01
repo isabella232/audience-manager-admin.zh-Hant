@@ -15,11 +15,11 @@ ht-degree: 9%
 
 # 稽核記錄 {#audit-logging}
 
-在除 [!UICONTROL  Audit Logging] 錯客戶問題時，請先使用。
+在除錯客戶問題時，請首先使用[!UICONTROL  Audit Logging]。
 
 >[!NOTE]
 >
->功 [!UICONTROL Audit Logging] 能和檔案目前正在開發中，可能會有所變更。 請記錄您在（團隊）中遇到 [!DNL JIRA] 的任[!DNL UI] 何問題。
+>[!UICONTROL Audit Logging]功能與檔案目前仍在開發中，可能會有所變更。 請記錄您在[!DNL JIRA]（[!DNL UI]團隊）中遇到的任何問題。
 
 ![審計日誌視圖](assets/audit-logging-img.png)
 
