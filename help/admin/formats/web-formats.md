@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # HTTP 格式巨集{#http-format-macros}
 
-列出可用於建立資料檔案 [!DNL HTTP] 的宏。 [!DNL HTTP] 以格式傳送 [!DNL JSON] 資料。
+列出可用於建立[!DNL HTTP]資料檔案的宏。 [!DNL HTTP] 以格式傳送 [!DNL JSON] 資料。
 
-如需一 [些常用巨集組合的清單和範例](../formats/web-format-examples.md) ，請參閱HTTP格式巨集範例。
+有關一些常用宏組合的清單和示例，請參見[HTTP格式宏示例](../formats/web-format-examples.md)。
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -31,12 +31,12 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword"> Audience Manager </span> ID。 </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> Audience Manager  </span> ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>資料合作夥伴唯一使用者ID。 如果使用者的ID已與 <span class="keyword"></span> Audience Manager裝置ID同步，此巨集會傳回您指派給使用者的ID。 </p> </td> 
+   <td colname="col3"> <p>資料合作夥伴唯一使用者ID。 如果使用者的ID已與<span class="keyword"> Audience Manager </span>裝置ID同步，此巨集會傳回您指派給使用者的ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -51,7 +51,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Unix UTC時間戳記。 內部時間戳記，代表AAM獲知將 <span class="wintitle"> S2S目標發佈給我們 </span> 合作夥伴的時間。 </p> </td> 
+   <td colname="col3"> <p>Unix UTC時間戳記。 內部時間戳記，表示AAM獲知將<span class="wintitle"> S2S </span>目標發佈給我們的合作夥伴的時間。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -91,7 +91,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>發 <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> 起活動的Audience Manager DCS </a> 地區。</p> </td> 
+   <td colname="col3"> <p>活動始發地的<a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager DCS區域</a>。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -108,7 +108,7 @@ ht-degree: 3%
       <li id="li_D3509A2D379E4C1FB3BC1B5E7D45A916"> <code>newSegmentId</code> </li> 
       <li id="li_EA901C20EEEB4CFAA39A5E0E822D2394"> <code>status</code> </li> 
       <li id="li_6310E21F88CC4691980DD3C9D551409F"> <code>dateTime</code> </li> 
-     </ul> </p> <p>在陣列中指定下列欄位，如下例所示： </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另請參閱 <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例 </a>。 </p> </td> 
+     </ul> </p> <p>在陣列中指定下列欄位，如下例所示： </p> <p> <code>[&lt;REMOVED_SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另請參閱<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_TIME_LIST</code> </p> </td> 
@@ -135,7 +135,7 @@ ht-degree: 3%
       <li id="li_4A81E3B715254549B9EADB983A2FC32B"> <code>newSegmentId</code> </li> 
       <li id="li_1F01A60829DF4C87879D94299E1D589C"> <code>status</code> </li> 
       <li id="li_E52F10CD5A04487D81A4B1750B0DC4E3"> <code>dateTime</code> </li> 
-     </ul> </p> <p>在陣列中指定下列欄位，如下例所示： </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另請參閱 <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例 </a>。 </p> </td> 
+     </ul> </p> <p>在陣列中指定下列欄位，如下例所示： </p> <p> <code>[&lt;SEGMENTS:{seg|&lt;OPEN_BRACKET&gt;"Mapping":&lt;seg.traitAlias&gt;,"Status:"&lt;seg.status&gt;, "Time":&lt;seg.dateTime&gt;,"LegacySegmentId":&lt;seg.LegacySegmentId&gt;, "NewSegmentId":&lt;seg.NewSegmentId&gt;&lt;CLOSE_BRACKET&gt;}; "separator=","&gt;]</code> </p> <p>另請參閱<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式宏示例</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TIME_LIST</code> </p> </td> 
@@ -160,7 +160,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>Audience Manager使用 <span class="keyword"> 者ID </span> 的清單。 您也可以傳回包含下列項目的特定欄位： </p> 
+   <td colname="col3"> <p><span class="keyword"> Audience Manager </span>使用者ID的清單。 您也可以傳回包含下列項目的特定欄位： </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
@@ -174,8 +174,9 @@ ht-degree: 3%
      <li><code>user.regionIds</code></li> 
     </ul> <p>指定下列欄位，如此範例所示： </p> <p> 
      <codeblock>
-       "AAM_UUID": "&lt;user.aamUuid&gt;" "DataPartner_UUID": "&lt;user.dpUuid&gt;" 
-     </codeblock> </p> <p>如需完整 <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> 範例，另請參閱HTTP </a> 格式巨集範例。 </p> </td> 
+       "AAM_UUID": "&lt;user.aamUuid&gt;" 
+"DataPartner_UUID": "&lt;user.dpUuid&gt;" 
+     </codeblock> </p> <p>如需完整範例，請參閱<a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> HTTP格式巨集範例</a>。 </p> </td> 
   </tr>
  </tbody>
 </table>
