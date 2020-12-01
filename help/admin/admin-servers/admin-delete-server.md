@@ -15,17 +15,17 @@ ht-degree: 10%
 
 # 刪除伺服器 {#delete-a-server}
 
-使用Audience [!UICONTROL Servers] Manager管理工具中的頁面刪除現有伺服器。
+使用Audience Manager管理工具中的[!UICONTROL Servers]頁面刪除現有伺服器。
 
 <!-- t_delete_server.xml -->
 
 >[!NOTE]
 >
->您必須具有角 [!UICONTROL DEXADMIN] 色才能刪除現有伺服器。
+>您必須具有[!UICONTROL DEXADMIN]角色，才能刪除現有伺服器。
 
-1. 要刪除現有伺服器，請按一下 **[!UICONTROL Servers]**。
+1. 要刪除現有伺服器，請按一下&#x200B;**[!UICONTROL Servers]**。
 
    ![步驟結果](assets/servers.png)
 
-1. 按一 ![](assets/icon_delete.png) 下所 **[!UICONTROL Actions]** 要伺服器的欄位。
-1. Click **[!UICONTROL OK]** to confirm the deletion.
+1. 在所需伺服器的&#x200B;**[!UICONTROL Actions]**&#x200B;列中按一下![](assets/icon_delete.png)。
+1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;確認刪除。
