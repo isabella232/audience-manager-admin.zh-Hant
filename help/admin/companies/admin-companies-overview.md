@@ -15,10 +15,10 @@ ht-degree: 2%
 
 # 公司 {#companies}
 
-使用頁 [!UICONTROL Companies] 面可檢視Audience Manager設定中的公司清單。 您可以編輯或刪除現有公司或建立新公司，前提是您已指派適當的使用者角色。
+使用[!UICONTROL Companies]頁面可檢視Audience Manager設定中的公司清單。 您可以編輯或刪除現有公司或建立新公司，前提是您已指派適當的使用者角色。
 
 ![](assets/companies.png)
 
 您可以按一下所需欄的標題，以遞增或遞減順序來排序每個欄。
 
-使用 [!UICONTROL Search] 清單底部的方塊或分頁控制項，以尋找所需的公司。
+使用[!UICONTROL Search]方塊或清單底部的編頁控制項，以尋找所需的公司。
