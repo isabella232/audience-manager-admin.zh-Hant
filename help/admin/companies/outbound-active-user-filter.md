@@ -19,17 +19,17 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->訪客不需要在選取的客戶網站或其廣告流量中看到，即可符合「作用中」資格。 任何客戶或合作夥伴都可 [!DNL Audience Manager] 以看到他們符合「有效」資格。
+>訪客不需要在選取的客戶網站或其廣告流量中看到，即可符合「作用中」資格。 任何[!DNL Audience Manager]客戶或合作夥伴都可看到這些項目，以符合「有效」資格。
 
 若要僅依作用中使用者篩選：
 
 1. 按一下 **[!UICONTROL Companies]**.
-1. 選取您要使用的公司，然後按一下 **[!UICONTROL Destinations]**。
-1. 在該部 [!UICONTROL Batch Data] 分中，設定以下選項：
+1. 選擇要使用的公司，然後按一下&#x200B;**[!UICONTROL Destinations]**。
+1. 在[!UICONTROL Batch Data]區段中，設定下列選項：
 
-   * **[!UICONTROL Sync Type]**: 選擇 **[!UICONTROL Customer]** 或 **[!UICONTROL Platform]**。
-   * **[!UICONTROL Sync Type Lookback Period]**: 此時間間隔定義資料檔案的範圍。 選項 **[!UICONTROL 24 hours]**&#x200B;包括 **[!UICONTROL 7 days]**、 **[!UICONTROL 30 days]**、
+   * **[!UICONTROL Sync Type]**:選擇 **[!UICONTROL Customer]** 或 **[!UICONTROL Platform]**。
+   * **[!UICONTROL Sync Type Lookback Period]**:此時間間隔定義資料檔案的範圍。選擇包括&#x200B;**[!UICONTROL 24 hours]**、**[!UICONTROL 7 days]**、**[!UICONTROL 30 days]**。
    * **[!UICONTROL Incremental Sync Scheduled Run]**: Select **[!UICONTROL Never]**. 請記住，此篩選器僅適用於完全同步檔案。
-   * **[!UICONTROL Full Sync Scheduled Run]**: 這會決定您要接收此檔案的頻率。 選項 **[!UICONTROL 24 hours]**&#x200B;包括 **[!UICONTROL 7 days]**、 **[!UICONTROL 30 days]**&#x200B;或 **[!UICONTROL Never]** （要禁用）。
+   * **[!UICONTROL Full Sync Scheduled Run]**:這會決定您要接收此檔案的頻率。選擇包括&#x200B;**[!UICONTROL 24 hours]**、**[!UICONTROL 7 days]**、**[!UICONTROL 30 days]**&#x200B;或&#x200B;**[!UICONTROL Never]**（要禁用）。
 
 1. 按一下 **[!UICONTROL Save]**.
