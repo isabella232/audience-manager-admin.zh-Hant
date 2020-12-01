@@ -15,9 +15,9 @@ ht-degree: 15%
 
 # HTTP 格式巨集範例{#http-format-macro-examples}
 
-一些常用宏組合 [!DNL HTTP] 的示例。
+一些常用[!DNL HTTP]宏組合的示例。
 
-如需巨 [集及其定義的清單](../formats/web-formats.md) ，請參閱HTTP格式巨集。
+有關宏及其定義的清單，請參見[HTTP格式宏](../formats/web-formats.md)。
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -138,7 +138,7 @@ ht-degree: 15%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>如果欄位不空白，則 <code>segments</code> 列印 <code>removedSegments</code> 逗號。 當串連區段清單和移除的區段時，此條件可用於POST請求。 </p> </td> 
+   <td colname="col2"> <p>如果欄位<code>segments</code>和<code>removedSegments</code>不為空，則打印逗號。 當串連區段清單和移除的區段時，此條件可用於POST請求。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
