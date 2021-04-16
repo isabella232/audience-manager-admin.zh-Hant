@@ -1,12 +1,12 @@
 ---
-product: audience-manager
+product: audience manager
 audience: admin
 user-guide-title: Audience Manager 管理平台指南
 breadcrumb-title: 管理指南
 breadcrumb-url: /docs/audience-manager-admin/admin-guide/admin-home.html
 user-guide-description: Audience Manager 管理員工具可讓您新增及設定公司、伺服器、報表、格式和使用者。您也可以檢視或編輯您的個人設定檔。
 translation-type: tm+mt
-source-git-commit: b855eba932bf68c7c71ece8fb3e51f93ed5cb402
+source-git-commit: fb3eb6ee29332a84f2f389d4c6a2b6e2b7d0fced
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%
