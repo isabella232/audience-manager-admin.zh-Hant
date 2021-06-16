@@ -4,14 +4,13 @@ seo-description: 依日期列出 Audience Manager 管理員手冊的所有更新
 seo-title: 年文件更新
 title: 年文件更新
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
-translation-type: tm+mt
-source-git-commit: 87f89a8a229b221cdab217b8a6b96ccd958078ca
+exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
+source-git-commit: 7767c20bf97ee5c602b60dc6c11a5cd2bf21835d
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 99%
 
 ---
-
 
 # 文件更新 {#documentation-updates}
 
@@ -21,12 +20,10 @@ ht-degree: 99%
 
 ## AAM 2019 文件更新 {#aam-2019-docs-updates}
 
-
 | 主題 | 說明 |
----------|----------|
+|--- |--- |
 | HTTP 格式巨集 | 新巨集 `REGION_ID_LIST` 及三個新欄位 (`sda`、`sda` 和 `sda`) 均已新增至 `USER_LIST` 巨集。 |
 | HTTP 格式巨集 | 新增兩個巨集：`ECID` 和 `MCID`。 |
-
 
 ## AAM 2018 文件更新 {#aam-2018-docs-updates}
 
