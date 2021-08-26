@@ -1,22 +1,22 @@
 ---
 description: 依日期列出 Audience Manager 管理員手冊的所有更新 (新增、刪除和更正項目)。
-seo-description: 依日期列出 Audience Manager 管理員手冊的所有更新 (新增、刪除和更正項目)。
-seo-title: 年文件更新
+seo-description: All updates (additions, deletions, and corrections) to the Audience Manager Admin Guide, by date.
+seo-title: Documentation Updates
 title: 年文件更新
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
-source-git-commit: 7767c20bf97ee5c602b60dc6c11a5cd2bf21835d
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 99%
+source-wordcount: '600'
+ht-degree: 94%
 
 ---
 
-# 文件更新 {#documentation-updates}
+# 年文件更新 {#documentation-updates}
 
 依日期列出 Audience Manager 管理員手冊的所有更新 (新增、刪除和更正項目)。
 
-如需功能版本、增強功能和錯誤修正的詳細資訊，請參閱 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/zh_TW/whatsnew/)。請參閱[之前的發行說明](https://marketing.adobe.com/resources/help/zh_TW/whatsnew/c_legacy_releases.html)，了解 Experience Cloud 過往公告內容。如需[!DNL Audience Manager]檔案變更，請參閱[檔案更新](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/documentation-updates/docs-2019.html)。
+如需功能版本、增強功能和錯誤修正的詳細資訊，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)。如需[!DNL Audience Manager]檔案變更，請參閱[檔案更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en)。
 
 ## AAM 2019 文件更新 {#aam-2019-docs-updates}
 
@@ -100,7 +100,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421">API 需求與建議</a> </p> </td> 
-   <td colname="col2"> <p>此新增文件說明需注意及告知客戶的幾個需求和建議。內容與相同標題的公開文件大致相同，但會隨不同閱讀對象而有所調整。請參閱公開文件中的 <a href="https://marketing.adobe.com/resources/help/en_US/aam/aam-api-requirements.html" format="https" scope="external">API 需求與建議</a>。 </p> </td> 
+   <td colname="col2"> <p>此新增文件說明需注意及告知客戶的幾個需求和建議。內容與相同標題的公開文件大致相同，但會隨不同閱讀對象而有所調整。請參閱公開文件中的 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=en#api-requirements-recommendations" format="https" scope="external">API 需求與建議</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
