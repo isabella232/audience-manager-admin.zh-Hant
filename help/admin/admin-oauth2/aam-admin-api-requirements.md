@@ -5,9 +5,9 @@ seo-title: API Requirements and Recommendations
 title: API 需求與建議
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 exl-id: 24f90732-31a6-436d-862b-e6871d279c7a
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -36,4 +36,4 @@ ht-degree: 2%
 * 識別呼叫[!DNL API]的服務（例如，來自使用[!DNL API]的用戶端應用程式的呼叫，或來自進行大量變更的呼叫）。
 * 不間斷地訪問[!DNL API]s。與特定員工相關聯的帳戶在離開公司時可能會被刪除。 這會使您的客戶無法使用可用的[!DNL API]程式碼。 未與特定員工關聯的通用帳戶有助於避免此問題。
 
-以此類帳戶的範例或使用案例為例，假設您的客戶想透過[大量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bult-management-tools/bulk-management-intro.html)一次變更許多區段。 要執行此操作，他們需要[!DNL API]存取。 請建立非特定的[!DNL API]使用者帳戶，該帳戶具有進行[!DNL API]呼叫的適當憑證、金鑰和機密，而非將權限新增至特定使用者。 如果客戶端開發自己的應用程式，並使用[!DNL Audience Manager] [!DNL API]s，則這也很有用。
+以此類帳戶的範例或使用案例為例，假設您的客戶想透過[大量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en)一次變更許多區段。 要執行此操作，他們需要[!DNL API]存取。 請建立非特定的[!DNL API]使用者帳戶，該帳戶具有進行[!DNL API]呼叫的適當憑證、金鑰和機密，而非將權限新增至特定使用者。 如果客戶端開發自己的應用程式，並使用[!DNL Audience Manager] [!DNL API]s，則這也很有用。

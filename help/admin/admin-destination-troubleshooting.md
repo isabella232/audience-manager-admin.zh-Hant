@@ -5,7 +5,7 @@ seo-title: Destination Setup Troubleshooting
 title: 目的地設定疑難排解
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 4%
@@ -74,7 +74,7 @@ ht-degree: 4%
 
 ### 檔案拆分大小過大
 
-將檔案外框到目標時，您可以將較大的外框檔案拆分為檔案塊。 請確定個別檔案區塊不超過10 GB。 另請參閱[傳出資料檔案名稱：語法和範例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en)。
+將檔案外框到目標時，您可以將較大的外框檔案拆分為檔案塊。 請確定個別檔案區塊不超過10 GB。 另請參閱[傳出資料檔案名稱：語法和範例](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en)。
 
 
 ## 如何設定您的目的地，以匯出資料檔案中的Experience CloudID、客戶ID或Audience ManagerID {#set-up-destinations-export}
