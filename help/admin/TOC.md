@@ -3,13 +3,11 @@ product: audience manager
 audience: admin
 user-guide-title: Audience Manager 管理平台指南
 breadcrumb-title: 管理指南
-breadcrumb-url: /docs/audience-manager-admin/admin-guide/admin-home.html
 user-guide-description: Audience Manager 管理員工具可讓您新增及設定公司、伺服器、報表、格式和使用者。您也可以檢視或編輯您的個人設定檔。
-translation-type: tm+mt
-source-git-commit: fb3eb6ee29332a84f2f389d4c6a2b6e2b7d0fced
+source-git-commit: 5074b73a4ffa9be305cfd753cb4a1efdfeeb9be3
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,8 +36,8 @@ ht-degree: 100%
    + [建立或編輯 S3 伺服器](admin-servers/create-s3-server.md)
    + [授予跨帳戶 Amazon S3 儲存貯體存取權](admin-servers/admin-authorize-s3-cross-bucket.md)
    + [刪除伺服器](admin-servers/admin-delete-server.md)
-+ 報告{#reporting}
-   + [報告](admin-reporting/admin-reporting-overview.md)
++ 報表{#reporting}
+   + [報表](admin-reporting/admin-reporting-overview.md)
    + [將入口網站使用者指派給 Tableau 使用者](admin-reporting/admin-assign-tableau-user.md)
 + 格式{#formats}
    + [格式概述](formats/formats.md)
@@ -56,4 +54,4 @@ ht-degree: 100%
 + [我的設定檔](admin-my-profile.md)
 + [目的地設定疑難排解](admin-destination-troubleshooting.md)
 + [測試版環境](admin-beta-environment.md)
-+ [文件更新](admin-doc-updates.md)
++ [年文件更新](admin-doc-updates.md)
