@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Audience Manager 管理平台指南
 breadcrumb-title: 管理指南
 user-guide-description: Audience Manager 管理員工具可讓您新增及設定公司、伺服器、報表、格式和使用者。您也可以檢視或編輯您的個人設定檔。
-source-git-commit: 5074b73a4ffa9be305cfd753cb4a1efdfeeb9be3
+source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '187'
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 0%
    + [管理公司限制](companies/admin-company-limits.md)
    + [管理公司使用者](companies/admin-manage-company-users.md)
    + [僅依活躍使用者篩選傳出資料](companies/outbound-active-user-filter.md)
+   + [管理第二方資料的登機訪問](companies/admin-manage-onboarding-access.md)
 + 伺服器{#servers}
    + [伺服器概述](admin-servers/admin-servers.md)
    + [建立或編輯 FTP 伺服器](admin-servers/create-ftp-server.md)
