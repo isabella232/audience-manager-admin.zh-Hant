@@ -1,14 +1,20 @@
 ---
 description: 為防止意外檔案和資料登入其他合作夥伴或客戶擁有的目標資料源，Audience Manager在合作夥伴ID(PID)和其他合作夥伴擁有的資料源之間添加了映射要求。
 title: 管理第二方資料的登機訪問
-source-git-commit: 6c88979f876909bc32b5238605cb4a352e327a00
+exl-id: 03bec978-dd31-41cc-a3aa-d67fbb98963c
+source-git-commit: cc04863272005964cfbf1bb2319cc0dd86863680
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
 # 管理對第二方資料的登機訪問 {#manage-onboarding-access-for-second-party-data}
+
+>[!IMPORTANT]
+>
+> 此頁面的受眾是Adobe內部員工。 如果您是Audience Manager客戶，請求按本頁所述進行第二方資料源映射，請與客戶服務或技術客戶經理聯繫。
+> 請注意，請求現有資料共用關係的映射不是必需的。 將資料載入到屬於您的PID的目標資料源時，也不需要映射。
 
 為防止意外檔案和資料登入其他合作夥伴擁有的目標資料源，Audience Manager在合作夥伴ID(PID)和其他合作夥伴擁有的資料源(DPID)之間添加了映射要求。 閱讀中有關PID和DPID的詳細資訊 [Audience ManagerID的索引](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html)。
 
