@@ -1,41 +1,40 @@
 ---
-description: 檢視或編輯第三方資料提供者的容器和對應。 您也可以啟用與不同資料提供者的共用功能。
-seo-description: 檢視或編輯第三方資料提供者的容器和對應。 您也可以啟用與不同資料提供者的共用功能。
-seo-title: 管理第三方資料提供者
+description: 查看或編輯第三方資料提供程式的容器和映射。 您還可以啟用與不同資料提供程式的共用。
+seo-description: View or edit containers and mappings for third-party data providers. You can also enable sharing with different data providers.
+seo-title: Manage Third-Party Data Providers
 title: 管理第三方資料提供者
 uuid: e41dc7b2-8b06-4e81-9b3b-0f70e2fd3275
-translation-type: tm+mt
-source-git-commit: 10adb6b06160f5a5c4068483b407e5798fc10150
+exl-id: b4bcf543-3769-4cb5-af96-7d60055376b8
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 5%
+source-wordcount: '195'
+ht-degree: 4%
 
 ---
 
-
 # 管理第三方資料提供者 {#manage-third-party-data-providers}
 
-檢視或編輯第三方資料提供者的容器和對應。 您也可以啟用與不同資料提供者的共用功能。
+查看或編輯第三方資料提供程式的容器和映射。 您還可以啟用與不同資料提供程式的共用。
 
-1. 按一下&#x200B;**[!UICONTROL Companies]**，然後找出並按一下所要的公司，以顯示其[!UICONTROL Profile]頁面。
+1. 按一下 **[!UICONTROL Companies]**，然後找到並按一下所需的公司以顯示其 [!UICONTROL Profile] 的子菜單。
 
-   使用[!UICONTROL Search]方塊或清單底部的編頁控制項，以尋找所需的公司。 您可以按一下所需欄的標題，以遞增或遞減順序來排序每個欄。
-1. 按一下&#x200B;**[!UICONTROL Third Party Data Providers]**&#x200B;頁籤。
+   使用 [!UICONTROL Search] 或清單底部的分頁控制項，以查找所需的公司。 通過按一下所需列的標題，可以按升序或降序對每列進行排序。
+1. 按一下 **[!UICONTROL Third Party Data Providers]** 頁籤。
 
    ![](assets/third_party_providers.png)
 
-1. 按一下資料提供者的列，以檢視或編輯該資料提供者的容器和對應。
+1. 按一下資料提供程式的行可查看或編輯該資料提供程式的容器和映射。
 
    ![步驟結果](assets/third_party_providers_edit.png)
 
-1. 選擇&#x200B;**[!UICONTROL Enable Sharing]**&#x200B;以啟用以下選項：
+1. 選擇 **[!UICONTROL Enable Sharing]** 啟用以下選項：
 
    * **合作夥伴級別重疊：**
-   * **模型使用已啟用：** 讓此公司在建立演算模型時使用此資料提供者。
+   * **已啟用模型使用：** 讓公司在建立算法模型時使用此資料提供器。
 
-   啟用共用時，您可從此資料提供者存取特徵。
+   啟用共用後，您可以從此資料提供程式訪問特徵。
 
-1. （條件性）如果此提供者已啟用容器，您可以將所需容器從可用清單移至選取的清單，以選取此資料提供者的容器。
+1. （條件）如果為此提供程式啟用了容器，則可以通過將所需容器從可用清單移動到選定清單來為此資料提供程式選擇容器。
 
-   您也可以從[容器](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967)頁面執行此任務。
-1. 如果您進行了更改，請按一下&#x200B;**[!UICONTROL Save]**。
+   您也可以從 [容器](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967) 的子菜單。
+1. 按一下 **[!UICONTROL Save]** 的雙曲餘切值。

@@ -14,26 +14,26 @@ ht-degree: 2%
 
 # API 需求與建議 {#api-requirements-and-recommendations}
 
-您應鼓勵客戶在使用Audience Manager[!DNL API]s時注意的事項。
+您應鼓勵客戶在與Audience Manager合作時注意的事項 [!DNL API]s
 
 ## 要求 {#requirements}
 
-使用[!DNL Audience Manager] [!DNL API]程式碼時，請注意下列事項：
+使用時請注意以下事項 [!DNL Audience Manager] [!DNL API] 代碼：
 
-* **請求參數：** 除非另有指定，否則所有請求參數都為必要。
-* **[!DNL JSON]內容類型：** 在您 `content-type: application/json` ** `accept: application/json` 的程式碼中指定和。
+* **請求參數：** 除非另有指定，否則所有請求參數都是必需的。
+* **[!DNL JSON]內容類型：** 指定 `content-type: application/json` *和* `accept: application/json` 你的密碼。
 
-* **請求和回應：** 以格式正確的物件傳送 [!DNL JSON] 請求。[!DNL Audience Manager] 使用格式化 [!DNL JSON] 資料進行響應。伺服器回應可包含請求的資料、狀態代碼或兩者。
+* **請求和響應：** 以格式正確的方式發送請求 [!DNL JSON] 的雙曲餘切值。 [!DNL Audience Manager] 響應 [!DNL JSON] 格式化資料。 伺服器響應可以包含請求的資料、狀態代碼或兩者。
 
-* **存取：** 您的 [!DNL Audience Manager] 顧問會提供您用戶端ID和金鑰，讓您提出 [!DNL API] 要求。
+* **訪問：** 您 [!DNL Audience Manager] 顧問將為您提供客戶端ID和密鑰，以便您 [!DNL API] 請求。
 
-* **檔案和程式碼範例：** 斜體 ** 文字代表您在製作或接收資料時提供或傳入的 [!DNL API] 變數。將&#x200B;*斜體*&#x200B;文字取代為您自己的程式碼、參數或其他必要資訊。
+* **文檔和代碼示例：** 文本 *斜體* 表示在生成或接收時提供或傳遞的變數 [!DNL API] 資料。 替換 *斜體* 包含您自己的代碼、參數或其他必需資訊的文本。
 
-## Recommendations:建立一般API使用者 {#recommendations}
+## Recommendations:建立通用API用戶 {#recommendations}
 
-建議您建立個別的技術使用者帳戶，以使用Audience Manager[!DNL API]s。這是一般帳戶，不會系結至用戶端組織中的特定使用者，或與其建立關聯。 此類型的[!DNL API]使用者帳戶有助於完成下列兩件事：
+我們建議建立一個單獨的技術用戶帳戶以使用Audience Manager [!DNL API]s這是一個普通帳戶，它不與客戶機組織中的特定用戶關聯或關聯。 此類型 [!DNL API] 用戶帳戶可幫助完成兩項任務：
 
-* 識別呼叫[!DNL API]的服務（例如，來自使用[!DNL API]的用戶端應用程式的呼叫，或來自進行大量變更的呼叫）。
-* 不間斷地訪問[!DNL API]s。與特定員工相關聯的帳戶在離開公司時可能會被刪除。 這會使您的客戶無法使用可用的[!DNL API]程式碼。 未與特定員工關聯的通用帳戶有助於避免此問題。
+* 確定呼叫的服務 [!DNL API] (例如，來自使用我們 [!DNL API]或進行批量更改)。
+* 提供對 [!DNL API]s與特定員工關聯的帳戶在離開公司時可以刪除。 這將阻止您的客戶使用可用 [!DNL API] 代碼。 不與特定員工關聯的通用帳戶有助於避免此問題。
 
-以此類帳戶的範例或使用案例為例，假設您的客戶想透過[大量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en)一次變更許多區段。 要執行此操作，他們需要[!DNL API]存取。 請建立非特定的[!DNL API]使用者帳戶，該帳戶具有進行[!DNL API]呼叫的適當憑證、金鑰和機密，而非將權限新增至特定使用者。 如果客戶端開發自己的應用程式，並使用[!DNL Audience Manager] [!DNL API]s，則這也很有用。
+作為此類型帳戶的示例或使用案例，假設客戶希望同時使用 [批量管理工具](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en)。 要做到這一點，他們需要 [!DNL API] 訪問。 不是向特定用戶添加權限，而是建立非特定用戶， [!DNL API] 具有相應憑據、密鑰和機密的用戶帳戶 [!DNL API] 呼叫。 如果客戶開發使用 [!DNL Audience Manager] [!DNL API]s

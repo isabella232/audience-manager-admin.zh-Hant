@@ -1,5 +1,5 @@
 ---
-description: 使用「OAuth2用戶端」頁面，在您的Audience Manager設定中檢視OAuth2用戶端清單。 您可以編輯或刪除現有客戶端或建立新客戶端，前提是分配了適當的用戶角色。
+description: 使用「OAuth2客戶端」頁可以查看Audience Manager配置中的OAuth2客戶端清單。 您可以編輯或刪除現有客戶端或建立新客戶端，前提是您已分配了相應的用戶角色。
 seo-description: Use the OAuth2 Clients page to view a list of OAuth2 clients in your Audience Manager configuration. You can edit or delete existing clients or create new clients, providing that you have the appropriate user roles assigned.
 seo-title: OAuth2 Clients
 title: OAuth2 用戶端
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # OAuth2 用戶端 {#oauth-clients}
 
-使用[!UICONTROL OAuth2 Clients]頁可查看[!DNL Audience Manager]配置中的[!UICONTROL OAuth2]客戶端清單。 您可以編輯或刪除現有客戶端或建立新客戶端，前提是分配了適當的用戶角色。
+使用 [!UICONTROL OAuth2 Clients] 頁面以查看 [!UICONTROL OAuth2] 客戶 [!DNL Audience Manager] 配置。 您可以編輯或刪除現有客戶端或建立新客戶端，前提是您已分配了相應的用戶角色。
 
 ## 概述 {#overview}
 
@@ -22,45 +22,45 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->請確定您的Audience Manager閱讀「Analytics使用指南」中的[OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth)檔案。
+>確保您的客戶閱讀 [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) Audience Manager使用手冊中的文檔。
 
-[!DNL OAuth2] 是授權的開放標準，可代表資源擁有者提供對 [!DNL Audience Manager] 資源的安全委派存取。
+[!DNL OAuth2] 是一個開放的授權標準，可提供安全的委託訪問 [!DNL Audience Manager] 資源。
 
 ![](assets/oauth.png)
 
-您可以按一下所需欄的標題，以遞增或遞減順序排序每個欄。
+通過按一下所需列的標題，可以按升序或降序對每列進行排序。
 
-使用[!UICONTROL Search]方塊或清單底部的分頁控制項，以尋找所需的用戶端。
+使用 [!UICONTROL Search] 對話框或清單底部的分頁控制項以查找所需的客戶端。
 
-## 建立或編輯OAuth2用戶端 {#create-edit-client}
+## 建立或編輯OAuth2客戶端 {#create-edit-client}
 
 <!-- t_create_edit_auth.xml -->
 
-使用Audience Manager[!UICONTROL Admin]工具中的[!UICONTROL OAuth2 Clients]頁可建立新的[!UICONTROL Oauth2]客戶端或編輯現有客戶端。
+使用 [!UICONTROL OAuth2 Clients] 頁面的Audience Manager [!UICONTROL Admin] 建立新工具 [!UICONTROL Oauth2] 或編輯現有客戶端。
 
-1. 要建立新的[!UICONTROL OAuth2]客戶端，請按一下「**[!UICONTROL OAuth2 Clients]** > **[!UICONTROL Add OAuth2 Client]**」。 要編輯現有的[!UICONTROL OAuth2]客戶端，請在&#x200B;**[!UICONTROL Client ID]**&#x200B;列中按一下所需的客戶端。
-1. 為此[!UICONTROL OAuth2]客戶端指定所需的名稱。 請注意，這僅是記錄的名稱。
-1. 指定[!UICONTROL OAuth2]用戶端的電子郵件地址。 一個電子郵件地址的限制。
-1. 從&#x200B;**[!UICONTROL Partner]**&#x200B;下拉式清單中，選取所需的合作夥伴。
-1. 在&#x200B;**[!UICONTROL Client ID]**&#x200B;方塊中，指定所需的ID。 這是提交[!DNL API]請求時使用的值。 在您從前一步驟的下拉式清單中選擇[!UICONTROL Partner]後，開始輸入時，首碼會自動填入。 正確格式為&lt; *`partner subdomain`*> - &lt; *`Audience Manager username`*>。
-1. 視需要選取或取消選取&#x200B;**[!UICONTROL Restrict to Partner Users]**&#x200B;核取方塊。 如果選中此複選框，則用戶必須是為所選合作夥伴列出的[!DNL Audience Manager]用戶。 根據最佳實務，建議您選取此選項。
-1. 在&#x200B;**[!UICONTROL Scope]**&#x200B;區段中，視需要選取或取消選取&#x200B;**[!UICONTROL Read]**&#x200B;和&#x200B;**[!UICONTROL Write]**&#x200B;核取方塊。
-1. 在&#x200B;**[!UICONTROL Grant Type]**&#x200B;區段中，選取所需的授權方式。 建議您使用[!UICONTROL Password]和[!UICONTROL Refresh-token]選項的預設設定。
+1. 建立新 [!UICONTROL OAuth2] 客戶端，按一下 **[!UICONTROL OAuth2 Clients]** > **[!UICONTROL Add OAuth2 Client]**。 編輯現有 [!UICONTROL OAuth2] 客戶端，按一下 **[!UICONTROL Client ID]** 的雙曲餘切值。
+1. 為此指定所需名稱 [!UICONTROL OAuth2] 客戶端。 請注意，這只是記錄的名稱。
+1. 指定 [!UICONTROL OAuth2] 客戶端的電子郵件地址。 電子郵件地址有限。
+1. 從 **[!UICONTROL Partner]** 下拉清單，選擇所需的合作夥伴。
+1. 在 **[!UICONTROL Client ID]** 框中，指定所需的ID。 這是提交時使用的值 [!DNL API] 請求。 在選擇了 [!UICONTROL Partner] 的子菜單。 正確格式為&lt; *`partner subdomain`*> - &lt; *`Audience Manager username`*>。
+1. 選擇或取消選擇 **[!UICONTROL Restrict to Partner Users]** 按鈕。 如果選中此複選框，則用戶必須是 [!DNL Audience Manager] 為所選夥伴列出的用戶。 作為最佳做法，我們建議您選擇此選項。
+1. 在 **[!UICONTROL Scope]** ，選擇或取消選擇 **[!UICONTROL Read]** 和 **[!UICONTROL Write]** 按鈕。
+1. 在 **[!UICONTROL Grant Type]** 的子菜單。 建議您使用 [!UICONTROL Password] 和 [!UICONTROL Refresh-token] 頁籤
 
-   * **[!UICONTROL Implicit]**:如果選取此選項，則 [!UICONTROL Redirect URI] 會啟用方塊。在驗證後，使用者會獲得自動存取權杖，並立即傳送至重新導向[!DNL URI]。
-   * **[!UICONTROL Authorization Code]**:如果選取此選項，則 [!UICONTROL Redirect URI] 會啟用方塊。在驗證後，將用戶返回到客戶端，然後發送到重定向[!DNL URI]。
-   * **[!UICONTROL Password]**:使用用戶輸入的密碼來驗證用戶，而不是通過授權伺服器自動驗證嘗試。
-   * **[!UICONTROL Refresh_token]**:用於刷新已過期的訪問令牌一段長時間。
+   * **[!UICONTROL Implicit]**:如果選擇此選項， [!UICONTROL Redirect URI] 的子菜單。 用戶在經過認證後被賦予一個自動訪問令牌並被立即發送到重定向 [!DNL URI]。
+   * **[!UICONTROL Authorization Code]**:如果選擇此選項， [!UICONTROL Redirect URI] 的子菜單。 用戶在經過身份驗證後返回給客戶機，然後被發送到重定向 [!DNL URI]。
+   * **[!UICONTROL Password]**:使用用戶輸入的密碼而不是通過授權伺服器自動驗證嘗試來驗證用戶。
+   * **[!UICONTROL Refresh_token]**:用於在較長的時間段內刷新過期的訪問令牌。
 
-1. 在&#x200B;**[!UICONTROL Redirect URI]**&#x200B;方塊中，指定所需的[!DNL URI]。 只有在選擇&#x200B;**[!UICONTROL Implicit]**&#x200B;和&#x200B;**[!UICONTROL Authorization_code]**&#x200B;授予類型時，才啟用此選項。 **[!UICONTROL Redirect URI]**&#x200B;方塊可讓您指定可接受[!DNL URI]值的逗號分隔值。 這是在批准客戶端進行[!DNL API]訪問後，將客戶端的用戶重定向到的[!DNL URI]。
-1. 指定存取和重新整理Token過期所需的過期時間（以秒為單位）。
+1. 在 **[!UICONTROL Redirect URI]** 框中，指定所需 [!DNL URI]。 僅當選擇 **[!UICONTROL Implicit]** 和 **[!UICONTROL Authorization_code]** 授予類型。 的 **[!UICONTROL Redirect URI]** 框，用於指定可接受的逗號分隔值 [!DNL URI] 值。 這是 [!DNL URI] 在為客戶機批准之後，將客戶機的用戶重定向到 [!DNL API] 訪問。
+1. 指定訪問和刷新令牌過期所需的過期時間（以秒為單位）。
 
-   * **[!UICONTROL Access Token Expiration Time]**:存取權杖發出後有效的秒數。若要使用平台預設值（12小時），則可能為null。 也可以是–1，以指出存取權杖不會過期。
-   * **[!UICONTROL Refresh Token Expiration Time]**:重新整理Token發出後有效的秒數。若要使用平台預設值（30天），則可能為null。
+   * **[!UICONTROL Access Token Expiration Time]**:發出訪問令牌後有效的秒數。 如果使用平台預設值（12小時），則可能為空。 也可以是–1，以指示訪問令牌未過期。
+   * **[!UICONTROL Refresh Token Expiration Time]**:發出刷新令牌後有效的秒數。 如果使用平台預設值（30天），則可能為空。
 
 1. 按一下 **[!UICONTROL Save]**.
 
-若要刪除[!UICONTROL OAuth2]客戶端，請按一下&#x200B;**[!UICONTROL OAuth2 Clients]**，然後按一下所需客戶端的&#x200B;**[!UICONTROL Actions]**&#x200B;列中的![](assets/icon_delete.png)。
+刪除 [!UICONTROL OAuth2] 客戶端，按一下 **[!UICONTROL OAuth2 Clients]**，然後按一下  ![](assets/icon_delete.png) 的 **[!UICONTROL Actions]** 列。
 
 >[!MORELIKETHIS]
 >

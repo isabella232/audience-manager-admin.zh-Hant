@@ -42,7 +42,7 @@ Audience Manager 管理員工具可讓您新增及設定公司、伺服器、報
      <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external">Adobe Social 社群</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/tw/learning.html?promoid=KAUDK" format="https" scope="external">Adobe 培訓和教學課程</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
-     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/support/experience-cloud.html" format="https" scope="external">產品文件首頁</a> </li> 
+     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/tw/support/experience-cloud.html" format="https" scope="external">產品文件首頁</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

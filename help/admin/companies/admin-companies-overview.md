@@ -1,24 +1,23 @@
 ---
-description: 使用「公司」頁面可以檢視Audience Manager設定中的公司清單。 您可以編輯或刪除現有公司或建立新公司，前提是您已指派適當的使用者角色。
-seo-description: 使用「公司」頁面可以檢視Audience Manager設定中的公司清單。 您可以編輯或刪除現有公司或建立新公司，前提是您已指派適當的使用者角色。
-seo-title: 公司
+description: 使用「公司」頁可查看Audience Manager配置中的公司清單。 您可以編輯或刪除現有公司或建立新公司，前提是您分配了相應的用戶角色。
+seo-description: Use the Companies page to view a list of companies in your Audience Manager configuration. You can edit or delete existing companies or create new companies, providing that you have the appropriate user roles assigned.
+seo-title: Companies
 title: 公司
 uuid: 64b467f4-5e2f-4637-a62d-9c70c8a1a5be
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: 03637648-3d59-4b8f-8e67-19c085da6387
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 2%
+source-wordcount: '105'
+ht-degree: 1%
 
 ---
 
-
 # 公司 {#companies}
 
-使用[!UICONTROL Companies]頁面可檢視Audience Manager設定中的公司清單。 您可以編輯或刪除現有公司或建立新公司，前提是您已指派適當的使用者角色。
+使用 [!UICONTROL Companies] 頁面，查看Audience Manager配置中的公司清單。 您可以編輯或刪除現有公司或建立新公司，前提是您分配了相應的用戶角色。
 
 ![](assets/companies.png)
 
-您可以按一下所需欄的標題，以遞增或遞減順序來排序每個欄。
+通過按一下所需列的標題，可以按升序或降序對每列進行排序。
 
-使用[!UICONTROL Search]方塊或清單底部的編頁控制項，以尋找所需的公司。
+使用 [!UICONTROL Search] 或清單底部的分頁控制項，以查找所需的公司。

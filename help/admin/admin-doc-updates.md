@@ -16,7 +16,7 @@ ht-degree: 94%
 
 依日期列出 Audience Manager 管理員手冊的所有更新 (新增、刪除和更正項目)。
 
-如需功能版本、增強功能和錯誤修正的詳細資訊，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)。如需[!DNL Audience Manager]檔案變更，請參閱[檔案更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en)。
+如需功能版本、增強功能和錯誤修正的詳細資訊，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)。對於 [!DNL Audience Manager] 文檔更改，請參閱 [文檔更新](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en)。
 
 ## AAM 2019 文件更新 {#aam-2019-docs-updates}
 
