@@ -1,5 +1,5 @@
 ---
-description: 如何使用宏建立出站FTP檔案模板的示例。
+description: 如何使用巨集建立輸出FTP檔案範本的範例。
 seo-description: Examples of how macros are used to create outbound, FTP file templates.
 seo-title: File Format Macro Examples
 title: 檔案格式巨集範例
@@ -14,21 +14,21 @@ ht-degree: 12%
 
 # 檔案格式巨集範例 {#file-format-macro-examples}
 
-如何使用宏建立出站、 [!DNL FTP] 檔案模板。
+如何使用巨集建立輸出、 [!DNL FTP] 檔案範本。
 
 >[!NOTE]
 >
->在桌子上， **粗臉** type標識每個宏及其相關輸出。 對於格式示例，已添加&lt; >符號，以幫助直觀地分隔每個宏。
+>在表格中， **粗體** type會識別每個巨集及其相關輸出。 在格式範例中，已新增&lt; >符號，以幫助在視覺上分隔每個巨集。
 
-## 通用宏 {#common-macros}
+## 通用巨集 {#common-macros}
 
-這些宏可用於任何格式欄位。 查看 [檔案格式宏](../formats/file-formats.md) 清單和定義。
+這些巨集可用於任何格式欄位。 請參閱 [檔案格式巨集](../formats/file-formats.md) 以取得完整清單和定義。
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 宏 </th> 
-   <th colname="col2" class="entry"> 格式和輸出示例 </th> 
+   <th colname="col1" class="entry"> 巨集 </th> 
+   <th colname="col2" class="entry"> 格式和輸出範例 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -68,34 +68,34 @@ ht-degree: 12%
  </tbody> 
 </table>
 
-## 標題欄位宏 {#header-field-macros}
+## 標頭欄位巨集 {#header-field-macros}
 
-僅在標題欄位中使用的宏。 查看 [檔案格式宏](../formats/file-formats.md) 清單和定義。
+巨集僅用於標頭欄位。 請參閱 [檔案格式巨集](../formats/file-formats.md) 以取得完整清單和定義。
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 宏 </th> 
-   <th colname="col2" class="entry"> 格式和輸出示例 </th> 
+   <th colname="col1" class="entry"> 巨集 </th> 
+   <th colname="col2" class="entry"> 格式和輸出範例 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>格式: <code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>輸出： <code>888 full.sync </code> </p> <p>在輸出中，非打印製表符字元分隔每個元素。 </p> </td>
+   <td colname="col2"> <p>格式: <code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>輸出： <code>888 full.sync </code> </p> <p>在輸出中，非列印定位字元會分隔每個元素。 </p> </td>
   </tr>
  </tbody>
 </table>
 
-## 資料行宏 {#data-row-macros}
+## 資料列巨集 {#data-row-macros}
 
-僅在標題欄位中使用的宏。 查看 [檔案格式宏](../formats/file-formats.md) 清單和定義。
+巨集僅用於標頭欄位。 請參閱 [檔案格式巨集](../formats/file-formats.md) 以取得完整清單和定義。
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 宏 </th> 
-   <th colname="col2" class="entry"> 格式和輸出示例 </th> 
+   <th colname="col1" class="entry"> 巨集 </th> 
+   <th colname="col2" class="entry"> 格式和輸出範例 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -109,7 +109,7 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST </code> </p> </td> 
-   <td colname="col2"> <p>此示例建立一種格式，在伺服器到伺服器源中返回刪除的段。 </p> <p> 
+   <td colname="col2"> <p>此範例會建立一個格式，傳回伺服器對伺服器摘要中移除的區段。 </p> <p> 
      <code>
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", 
       "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
@@ -128,7 +128,7 @@ ht-degree: 12%
   </tr>
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>格式: <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>輸出： <code>123456 UUID1 UUID2 UUID3 </code> </p> <p>在輸出中，非打印製表符字元分隔每個元素。 </p> </td> 
+   <td colname="col2"> <p>格式: <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>輸出： <code>123456 UUID1 UUID2 UUID3 </code> </p> <p>在輸出中，非列印定位字元會分隔每個元素。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TRAIT_LIST </code> </p> </td> 

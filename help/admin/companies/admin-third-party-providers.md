@@ -1,5 +1,5 @@
 ---
-description: 查看或編輯第三方資料提供程式的容器和映射。 您還可以啟用與不同資料提供程式的共用。
+description: 檢視或編輯協力廠商資料提供者的容器和對應。 您也可以啟用與不同資料提供者的共用。
 seo-description: View or edit containers and mappings for third-party data providers. You can also enable sharing with different data providers.
 seo-title: Manage Third-Party Data Providers
 title: 管理第三方資料提供者
@@ -14,27 +14,27 @@ ht-degree: 4%
 
 # 管理第三方資料提供者 {#manage-third-party-data-providers}
 
-查看或編輯第三方資料提供程式的容器和映射。 您還可以啟用與不同資料提供程式的共用。
+檢視或編輯協力廠商資料提供者的容器和對應。 您也可以啟用與不同資料提供者的共用。
 
-1. 按一下 **[!UICONTROL Companies]**，然後找到並按一下所需的公司以顯示其 [!UICONTROL Profile] 的子菜單。
+1. 按一下 **[!UICONTROL Companies]**，然後找到並按一下所需的公司以顯示其 [!UICONTROL Profile] 頁面。
 
-   使用 [!UICONTROL Search] 或清單底部的分頁控制項，以查找所需的公司。 通過按一下所需列的標題，可以按升序或降序對每列進行排序。
-1. 按一下 **[!UICONTROL Third Party Data Providers]** 頁籤。
+   使用 [!UICONTROL Search] 方塊或清單底部的分頁控制項，以尋找所需的公司。 您可以按一下所需欄的標頭，以遞增或遞減順序排序每個欄。
+1. 按一下 **[!UICONTROL Third Party Data Providers]** 標籤。
 
    ![](assets/third_party_providers.png)
 
-1. 按一下資料提供程式的行可查看或編輯該資料提供程式的容器和映射。
+1. 按一下資料提供者的列，即可檢視或編輯該資料提供者的容器和對應。
 
    ![步驟結果](assets/third_party_providers_edit.png)
 
-1. 選擇 **[!UICONTROL Enable Sharing]** 啟用以下選項：
+1. 選取 **[!UICONTROL Enable Sharing]** 若要啟用下列選項：
 
-   * **合作夥伴級別重疊：**
-   * **已啟用模型使用：** 讓公司在建立算法模型時使用此資料提供器。
+   * **合作夥伴層級重疊：**
+   * **模型使用已啟用：** 可讓該公司在建立演演算法模型時使用此資料提供者。
 
-   啟用共用後，您可以從此資料提供程式訪問特徵。
+   啟用共用後，您就可以從此資料提供者存取特徵。
 
-1. （條件）如果為此提供程式啟用了容器，則可以通過將所需容器從可用清單移動到選定清單來為此資料提供程式選擇容器。
+1. （視條件而定）如果此提供者已啟用容器，您可以將所需的容器從可用清單移至選取的清單，以選取此資料提供者的容器。
 
-   您也可以從 [容器](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967) 的子菜單。
-1. 按一下 **[!UICONTROL Save]** 的雙曲餘切值。
+   您也可以從以下位置執行此工作 [容器](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967) 頁面。
+1. 按一下 **[!UICONTROL Save]** 若您進行變更。

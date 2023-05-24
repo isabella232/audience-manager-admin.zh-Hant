@@ -18,7 +18,7 @@ Audience Manager 管理員工具可讓您新增及設定公司、伺服器、報
 
 >[!IMPORTANT]
 >
-> 此文檔儲存庫的受眾是Adobe內部員工。 如果您是Audience Manager客戶，請導航到 [Audience Manager指南概述](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)。
+> 本檔案存放庫的對象是Adobe內部員工。 如果您是Audience Manager客戶，請導覽至 [Audience Manager指南概觀](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
